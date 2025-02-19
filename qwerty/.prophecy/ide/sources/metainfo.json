@@ -16,23 +16,10 @@
   },
   "datasets" : { },
   "pipelines" : {
-    "sfdgf" : {
-      "id" : "sfdgf",
-      "name" : "sfdgf",
-      "path" : "qwerty/.prophecy/ide/pipelines/sfdgf.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ ],
-      "sources" : [ ]
-    },
-    "jknlmjnkjnjk" : {
-      "id" : "jknlmjnkjnjk",
-      "name" : "jknlmjnkjnjk",
-      "path" : "qwerty/.prophecy/ide/pipelines/jknlmjnkjnjk.json",
+    "bjhnkml" : {
+      "id" : "bjhnkml",
+      "name" : "bjhnkml",
+      "path" : "qwerty/.prophecy/ide/pipelines/bjhnkml.json",
       "config" : {
         "schema" : {
           "type" : "record",
