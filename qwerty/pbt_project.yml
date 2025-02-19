@@ -1,6 +1,6 @@
 name: qwerty
 description: ''
-version: '1'
+version: 0.0.1
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
@@ -24,48 +24,6 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/iujoijoijio:
-    name: iujoijoijio
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: phone
-        dataType:
-          type: String
-      - name: email
-        dataType:
-          type: String
-      - name: country_code
-        dataType:
-          type: String
-      - name: account_open_date
-        dataType:
-          type: Date
-      - name: account_flags
-        dataType:
-          type: String
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/iujoijoijio.sql
-    - .prophecy/ide/models/iujoijoijio.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 18:55:01'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
@@ -157,39 +115,6 @@ sqlSources:
         for customer relationship management purposes.
       author: arunsharma@prophecy.io
       createdAt: '2025-02-19 18:29:42'
-    - name: sqlmodel
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: customer_id
-          dataType:
-            type: Bigint
-        - name: first_name
-          dataType:
-            type: String
-        - name: last_name
-          dataType:
-            type: String
-        - name: phone
-          dataType:
-            type: String
-        - name: email
-          dataType:
-            type: String
-        - name: country_code
-          dataType:
-            type: String
-        - name: account_open_date
-          dataType:
-            type: Date
-        - name: account_flags
-          dataType:
-            type: String
-      description: Customer data model containing details such as names, contact information,
-        account flags, and account opening dates.
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-19 18:55:07'
   .prophecy/metadata/sqlsources/prophecy__temp_source:
     name: prophecy__temp_source
     description: null
