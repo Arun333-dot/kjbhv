@@ -1,0 +1,85 @@
+{
+  "id" : "4",
+  "metainfo" : {
+    "label" : "4",
+    "autoLayout" : true,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "graphConfig" : {
+      "userDefinedConfig" : {
+        "vars" : { }
+      }
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "model##NwTCSGpq" : {
+      "id" : "model##NwTCSGpq",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "model",
+        "phase" : 0,
+        "isLabelGrayed" : false
+      },
+      "properties" : {
+        "table" : {
+          "name" : "model1",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.arun123"
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "dD4Tcvhx",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "index" : 0
+    },
+    "final##YbS3jCv4" : {
+      "id" : "final##YbS3jCv4",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "4",
+        "phase" : 0,
+        "isLabelGrayed" : false
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT *\n\nFROM model\n",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "wwhn5F3Q",
+          "slug" : "model"
+        } ],
+        "outputs" : [ {
+          "id" : "NpeqXKT8",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "index" : 1
+    }
+  },
+  "connections" : [ {
+    "id" : "jPlLoO7h",
+    "source" : "model##NwTCSGpq",
+    "sourcePort" : "dD4Tcvhx",
+    "target" : "final##YbS3jCv4",
+    "targetPort" : "wwhn5F3Q"
+  } ],
+  "component" : "Model"
+}
