@@ -1,6 +1,6 @@
 name: qwerty
 description: ''
-version: '8'
+version: '6'
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
@@ -140,7 +140,7 @@ sqlModels:
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-19 19:16:16'
+    createdAt: '2025-02-19 19:07:28'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
@@ -180,45 +180,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 17:57:24'
-  .prophecy/metadata/sqlmodels/6:
-    name: '6'
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/6.sql
-    - .prophecy/ide/models/6.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 19:19:11'
   .prophecy/metadata/sqlmodels/iujoijoijio:
     name: iujoijoijio
     schema:
