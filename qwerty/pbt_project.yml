@@ -1,5 +1,5 @@
 name: qwerty
-description: ''
+description: kjnkjnjklkm
 version: '11'
 author: arunsharma@prophecy.io
 language: sql
@@ -78,45 +78,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 19:37:41'
-  .prophecy/metadata/sqlmodels/3:
-    name: '3'
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/3.sql
-    - .prophecy/ide/models/3.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 19:05:29'
   .prophecy/metadata/sqlmodels/5:
     name: '5'
     schema:
@@ -376,14 +337,14 @@ sqlSources:
       createdAt: '2025-02-19 17:44:51'
 sqlUnreferencedSources: {}
 sqlOrchestratorPipelines:
-  .prophecy/metadata/sqlorchestratorpipeline/njklm:
-    name: njklm
+  .prophecy/metadata/sqlorchestratorpipeline/sfdgf:
+    name: sfdgf
     schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
-    - pipelines/njklm.json
-    createdAt: '2025-02-19 19:37:41'
+    - pipelines/sfdgf.json
+    createdAt: '2025-02-19 20:32:35'
 sqlPipeline:
   name: sqlPipeline
   description: null

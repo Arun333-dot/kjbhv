@@ -16,10 +16,10 @@
   },
   "datasets" : { },
   "pipelines" : {
-    "njklm" : {
-      "id" : "njklm",
-      "name" : "njklm",
-      "path" : "qwerty/.prophecy/ide/pipelines/njklm.json",
+    "sfdgf" : {
+      "id" : "sfdgf",
+      "name" : "sfdgf",
+      "path" : "qwerty/.prophecy/ide/pipelines/sfdgf.json",
       "config" : {
         "schema" : {
           "type" : "record",
@@ -930,10 +930,6 @@
     "prophecyProjectDependencies" : { }
   },
   "entitiesToSync" : [ {
-    "name" : "3",
-    "type" : "Model",
-    "syncedOnce" : false
-  }, {
     "name" : "5",
     "type" : "Model",
     "syncedOnce" : false
