@@ -1,6 +1,6 @@
 name: qwerty
 description: ''
-version: '12'
+version: '11'
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
@@ -26,7 +26,31 @@ subgraphs: {}
 sqlModels:
   .prophecy/metadata/sqlmodels/4:
     name: '4'
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -119,7 +143,31 @@ sqlModels:
     createdAt: '2025-02-19 19:05:29'
   .prophecy/metadata/sqlmodels/5:
     name: '5'
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
