@@ -3,7 +3,7 @@
   "metainfo" : {
     "label" : "oijmlkmlmlm",
     "autoLayout" : false,
-    "staleState" : "file",
+    "staleState" : "none",
     "sourceSuggestions" : {
       "sources" : [ ]
     },
@@ -17,13 +17,14 @@
         "label" : "oijmlkmlmlm",
         "x" : 20,
         "y" : 20,
-        "phase" : 0
+        "phase" : 0,
+        "macroDependencies" : [ ]
       },
       "properties" : {
         "customQueryDisabled" : true,
         "customQuery" : false,
         "incrementalEditorDisabled" : true,
-        "query" : "",
+        "query" : "SELECT * \n\nFROM model1\n",
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"
@@ -32,7 +33,7 @@
       "ports" : {
         "inputs" : [ {
           "id" : "UZcQlXmN",
-          "slug" : "in0"
+          "slug" : "model1"
         } ],
         "outputs" : [ {
           "id" : "YxRZPdKe",
@@ -41,8 +42,43 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       }
+    },
+    "YmZu2Mfl7TdyiHemheiO9" : {
+      "id" : "YmZu2Mfl7TdyiHemheiO9",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "model1",
+        "slug" : "model1",
+        "x" : -160,
+        "y" : 40,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "model1",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.arun123",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Ok2T0ZmW0yn4LvIGQfAhB",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
     }
   },
-  "connections" : [ ],
+  "connections" : [ {
+    "id" : "asAdCfM3NJmmGS8JFK5To$$k3-5m4z1d2Q5LgZ9PsIKp",
+    "source" : "YmZu2Mfl7TdyiHemheiO9",
+    "sourcePort" : "Ok2T0ZmW0yn4LvIGQfAhB",
+    "target" : "oijmlkmlmlm##oFXec0wn",
+    "targetPort" : "UZcQlXmN"
+  } ],
   "component" : "Model"
 }
