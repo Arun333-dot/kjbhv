@@ -1,6 +1,6 @@
 name: qwerty
 description: ''
-version: '9'
+version: '8'
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
