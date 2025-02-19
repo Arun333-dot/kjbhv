@@ -15,21 +15,7 @@
     "editable" : true
   },
   "datasets" : { },
-  "pipelines" : {
-    "njklm" : {
-      "id" : "njklm",
-      "name" : "njklm",
-      "path" : "qwerty/.prophecy/ide/pipelines/njklm.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ ],
-      "sources" : [ ]
-    }
-  },
+  "pipelines" : { },
   "externalSources" : {
     "type" : "Project",
     "name" : "",
@@ -943,10 +929,6 @@
     "syncedOnce" : false
   }, {
     "name" : "6",
-    "type" : "Model",
-    "syncedOnce" : false
-  }, {
-    "name" : "7",
     "type" : "Model",
     "syncedOnce" : false
   }, {
