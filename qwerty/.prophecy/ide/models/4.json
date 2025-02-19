@@ -3,28 +3,61 @@
   "metainfo" : {
     "label" : "4",
     "autoLayout" : false,
-    "staleState" : "none",
+    "staleState" : "file",
     "sourceSuggestions" : {
       "sources" : [ ]
+    },
+    "graphConfig" : {
+      "userDefinedConfig" : {
+        "vars" : { }
+      }
     },
     "version" : 3
   },
   "processes" : {
-    "4##eQKiixtN" : {
-      "id" : "4##eQKiixtN",
-      "component" : "TargetModel",
+    "model##NwTCSGpq" : {
+      "id" : "model##NwTCSGpq",
+      "component" : "Source",
       "metadata" : {
-        "label" : "4",
+        "label" : "model",
         "x" : 20,
         "y" : 20,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "isLabelGrayed" : false
+      },
+      "properties" : {
+        "table" : {
+          "name" : "model1",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.arun123"
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "dD4Tcvhx",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "index" : 0
+    },
+    "final##YbS3jCv4" : {
+      "id" : "final##YbS3jCv4",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "4",
+        "x" : 220,
+        "y" : 20,
+        "phase" : 0,
+        "isLabelGrayed" : false
       },
       "properties" : {
         "customQueryDisabled" : true,
         "customQuery" : false,
         "incrementalEditorDisabled" : true,
-        "query" : "SELECT * \n\nFROM model\n",
+        "query" : "SELECT *\n\nFROM model\n",
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"
@@ -32,53 +65,25 @@
       },
       "ports" : {
         "inputs" : [ {
-          "id" : "dI6JMPVu",
+          "id" : "wwhn5F3Q",
           "slug" : "model"
         } ],
         "outputs" : [ {
-          "id" : "bceNKbfd",
+          "id" : "NpeqXKT8",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
-      }
-    },
-    "hYsDTUgQ_R71ECdsIYiR9" : {
-      "id" : "hYsDTUgQ_R71ECdsIYiR9",
-      "component" : "Source",
-      "metadata" : {
-        "label" : "model",
-        "slug" : "model",
-        "x" : -180,
-        "y" : 20,
-        "phase" : 0
       },
-      "properties" : {
-        "table" : {
-          "name" : "model",
-          "sourceType" : "Source",
-          "sourceName" : "hive_metastore.arun123",
-          "alias" : "",
-          "additionalProperties" : null
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "gAGhcm7-n8jO4iXGsVWI6",
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      }
+      "index" : 1
     }
   },
   "connections" : [ {
-    "id" : "vR_rL4w0dw2LKW5zmLqfr$$sOJjFXxcI5MPImMiYzSwj",
-    "source" : "hYsDTUgQ_R71ECdsIYiR9",
-    "sourcePort" : "gAGhcm7-n8jO4iXGsVWI6",
-    "target" : "4##eQKiixtN",
-    "targetPort" : "dI6JMPVu"
+    "id" : "jPlLoO7h",
+    "source" : "model##NwTCSGpq",
+    "sourcePort" : "dD4Tcvhx",
+    "target" : "final##YbS3jCv4",
+    "targetPort" : "wwhn5F3Q"
   } ],
   "component" : "Model"
 }
