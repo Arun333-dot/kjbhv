@@ -1,0 +1,84 @@
+{
+  "id" : "5",
+  "metainfo" : {
+    "label" : "5",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "5##tpEizZ7d" : {
+      "id" : "5##tpEizZ7d",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "5",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT * \n\nFROM model\n",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "TEvQQ4RY",
+          "slug" : "model"
+        } ],
+        "outputs" : [ {
+          "id" : "z2crfgE7",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "TOc9868a4aOoCWadcAAmW" : {
+      "id" : "TOc9868a4aOoCWadcAAmW",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "model",
+        "slug" : "model",
+        "x" : -200,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "model",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.arun123",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "PmvW6IW7sGRWu9YOsNq--",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "bphEzx8EIn2Uj1F8u25WO$$ePJA3GqReD7jl_S4gm1zj",
+    "source" : "TOc9868a4aOoCWadcAAmW",
+    "sourcePort" : "PmvW6IW7sGRWu9YOsNq--",
+    "target" : "5##tpEizZ7d",
+    "targetPort" : "TEvQQ4RY"
+  } ],
+  "component" : "Model"
+}

@@ -24,45 +24,6 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/3:
-    name: '3'
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/3.sql
-    - .prophecy/ide/models/3.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 19:05:29'
   .prophecy/metadata/sqlmodels/4:
     name: '4'
     schema:
@@ -102,6 +63,123 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 19:05:43'
+  .prophecy/metadata/sqlmodels/3:
+    name: '3'
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/3.sql
+    - .prophecy/ide/models/3.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 19:05:29'
+  .prophecy/metadata/sqlmodels/5:
+    name: '5'
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/5.sql
+    - .prophecy/ide/models/5.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 19:07:28'
+  .prophecy/metadata/sqlmodels/uiiujijiji:
+    name: uiiujijiji
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/uiiujijiji.sql
+    - .prophecy/ide/models/uiiujijiji.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 17:57:24'
   .prophecy/metadata/sqlmodels/iujoijoijio:
     name: iujoijoijio
     schema:
@@ -144,45 +222,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
-  .prophecy/metadata/sqlmodels/uiiujijiji:
-    name: uiiujijiji
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/uiiujijiji.sql
-    - .prophecy/ide/models/uiiujijiji.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 17:57:24'
 sqlSnapshots: {}
 sqlTests: {}
 sqlMacros:
