@@ -1,0 +1,48 @@
+{
+  "id" : "oijmlkmlmlm",
+  "metainfo" : {
+    "label" : "oijmlkmlmlm",
+    "autoLayout" : false,
+    "staleState" : "file",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "oijmlkmlmlm##oFXec0wn" : {
+      "id" : "oijmlkmlmlm##oFXec0wn",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "oijmlkmlmlm",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "UZcQlXmN",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "YxRZPdKe",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}

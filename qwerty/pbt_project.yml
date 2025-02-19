@@ -66,6 +66,21 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
+  .prophecy/metadata/sqlmodels/oijmlkmlmlm:
+    name: oijmlkmlmlm
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/oijmlkmlmlm.sql
+    - .prophecy/ide/models/oijmlkmlmlm.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 19:00:28'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
