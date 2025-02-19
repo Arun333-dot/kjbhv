@@ -1,6 +1,6 @@
 name: qwerty
 description: ''
-version: '4'
+version: '1'
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
@@ -66,45 +66,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
-  .prophecy/metadata/sqlmodels/oijmlkmlmlm:
-    name: oijmlkmlmlm
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/oijmlkmlmlm.sql
-    - .prophecy/ide/models/oijmlkmlmlm.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 19:00:28'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
@@ -229,36 +190,6 @@ sqlSources:
         account flags, and account opening dates.
       author: arunsharma@prophecy.io
       createdAt: '2025-02-19 18:55:07'
-    - name: model1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: customer_id
-          dataType:
-            type: Bigint
-        - name: first_name
-          dataType:
-            type: String
-        - name: last_name
-          dataType:
-            type: String
-        - name: first_order
-          dataType:
-            type: Date
-        - name: most_recent_order
-          dataType:
-            type: Date
-        - name: number_of_orders
-          dataType:
-            type: Bigint
-        - name: customer_lifetime_value
-          dataType:
-            type: Double
-      description: Customer data model capturing customer details, order history,
-        and lifetime value for business insights and customer relationship management.
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-19 19:01:34'
   .prophecy/metadata/sqlsources/prophecy__temp_source:
     name: prophecy__temp_source
     description: null
