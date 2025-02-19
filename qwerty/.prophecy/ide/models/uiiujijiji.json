@@ -1,0 +1,84 @@
+{
+  "id" : "uiiujijiji",
+  "metainfo" : {
+    "label" : "uiiujijiji",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "uiiujijiji##arK9BWYm" : {
+      "id" : "uiiujijiji##arK9BWYm",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "uiiujijiji",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT * \n\nFROM model\n",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Fqj53Fti",
+          "slug" : "model"
+        } ],
+        "outputs" : [ {
+          "id" : "bPJIS7VH",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "5nptHDwds_pbvMFjJAHYB" : {
+      "id" : "5nptHDwds_pbvMFjJAHYB",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "model",
+        "slug" : "model",
+        "x" : -160,
+        "y" : 40,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "model",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.arun123",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "OkiR9MwsmazjuanbMSfmP",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "c7MCxoD2B2a3vua3qd7sd$$8w65SPufzXF62-0970GLg",
+    "source" : "5nptHDwds_pbvMFjJAHYB",
+    "sourcePort" : "OkiR9MwsmazjuanbMSfmP",
+    "target" : "uiiujijiji##arK9BWYm",
+    "targetPort" : "Fqj53Fti"
+  } ],
+  "component" : "Model"
+}
