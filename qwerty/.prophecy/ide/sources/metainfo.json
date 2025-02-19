@@ -28,6 +28,19 @@
       },
       "preview" : [ ],
       "sources" : [ ]
+    },
+    "jknlmjnkjnjk" : {
+      "id" : "jknlmjnkjnjk",
+      "name" : "jknlmjnkjnjk",
+      "path" : "qwerty/.prophecy/ide/pipelines/jknlmjnkjnjk.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
     }
   },
   "externalSources" : {

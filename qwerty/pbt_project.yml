@@ -345,6 +345,14 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/sfdgf.json
     createdAt: '2025-02-19 20:32:35'
+  .prophecy/metadata/sqlorchestratorpipeline/jknlmjnkjnjk:
+    name: jknlmjnkjnjk
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/jknlmjnkjnjk.json
+    createdAt: '2025-02-19 20:51:30'
 sqlPipeline:
   name: sqlPipeline
   description: null
