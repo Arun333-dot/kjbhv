@@ -51,3 +51,26 @@ sources:
     - name: "customer_lifetime_value"
       dataType:
         type: "Double"
+- name: "hive_metastore.bad_schema"
+  database: "hive_metastore"
+  schema: "bad_schema"
+  tables:
+  - name: "catalogsteett"
+    columns:
+    - name: "customer"
+      dataType:
+        type: "Struct"
+        fields:
+        - name: "id"
+          dataType:
+            type: "Bigint"
+        - name: "name"
+          dataType:
+            type: "String"
+    - name: "order"
+      dataType:
+        type: "Struct"
+        fields:
+        - name: "amount"
+          dataType:
+            type: "Bigint"
