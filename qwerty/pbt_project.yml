@@ -110,6 +110,7 @@ sqlModels:
     files:
     - models/uiiujijiji.sql
     - .prophecy/ide/models/uiiujijiji.json
+    - models/schema.yml
     sqlDependencies:
       models: []
       datasets: []
@@ -175,6 +176,7 @@ sqlMacros:
     files:
     - macros/f1.sql/f1.sql
     - .prophecy/ide/macros/f1.json
+    - macros/f1.sql/f1.sql.yml
     createdAt: '2025-02-21 07:07:17'
   .prophecy/metadata/sqlmacros/hjknkml:
     name: hjknkml
@@ -193,6 +195,7 @@ sqlMacros:
     files:
     - macros/f2.sql/f2.sql
     - .prophecy/ide/macros/f2.json
+    - macros/f2.sql/f2.sql.yml
     createdAt: '2025-02-21 07:07:23'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/ghnj:
