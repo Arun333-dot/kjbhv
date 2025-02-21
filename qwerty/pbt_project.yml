@@ -129,6 +129,15 @@ sqlTests:
     testType: GenericDataTest
     createdAt: '2025-02-19 21:00:03'
 sqlMacros:
+  .prophecy/metadata/sqlmacros/hjknkml:
+    name: hjknkml
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/hjknkml.sql/hjknkml.sql
+    - .prophecy/ide/macros/hjknkml.json
+    createdAt: '2025-02-19 21:01:11'
   .prophecy/metadata/sqlmacros/f3:
     name: f3
     macroType: expression
@@ -168,25 +177,6 @@ sqlMacros:
     - .prophecy/ide/macros/functin677.json
     - macros/functin677.sql/functin677.sql.yml
     createdAt: '2025-02-20 19:26:07'
-  .prophecy/metadata/sqlmacros/hjknkml:
-    name: hjknkml
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/hjknkml.sql/hjknkml.sql
-    - .prophecy/ide/macros/hjknkml.json
-    createdAt: '2025-02-19 21:01:11'
-  .prophecy/metadata/sqlmacros/f2:
-    name: f2
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/f2.sql/f2.sql
-    - .prophecy/ide/macros/f2.json
-    - macros/f2.sql/f2.sql.yml
-    createdAt: '2025-02-21 07:07:23'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
@@ -322,32 +312,32 @@ sqlSources:
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:02:26'
+      createdAt: '2025-02-21 11:26:48'
     - name: prophecy__temp_jhbkn_post_SQLStatement_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:02:26'
+      createdAt: '2025-02-21 11:26:48'
     - name: prophecy__temp_jhbkn_post_Macro_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:02:26'
+      createdAt: '2025-02-21 11:26:48'
     - name: prophecy__temp_jhbkn_post_Reformat_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:02:26'
+      createdAt: '2025-02-21 11:26:48'
     - name: prophecy__temp_jhbkn_post_WindowFunction_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:02:26'
+      createdAt: '2025-02-21 11:26:48'
     - name: prophecy__temp_jhbkn_post_Union_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:02:26'
+      createdAt: '2025-02-21 11:26:48'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null
