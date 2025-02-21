@@ -1,8 +1,0 @@
----
-version: 2
-macros:
-- name: "jknl"
-  arguments:
-  - name: "parameter1"
-    type: "value"
-  macroType: "query"
