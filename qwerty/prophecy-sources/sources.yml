@@ -194,3 +194,15 @@ sources:
     - name: "AMOUNT"
       dataType:
         type: "Bigint"
+- name: "hive_metastore.aditya"
+  database: "hive_metastore"
+  schema: "aditya"
+  tables:
+  - name: "test"
+    columns:
+    - name: "Check"
+      dataType:
+        type: "Integer"
+    - name: "SELECT"
+      dataType:
+        type: "Integer"
