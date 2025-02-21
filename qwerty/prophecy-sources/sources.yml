@@ -5,9 +5,7 @@ sources:
   database: "hive_metastore"
   schema: "arun123"
   tables:
-  - name: "sqlmodel"
-    description: "Customer data model containing details such as names, contact information,\
-      \ account flags, and account opening dates."
+  - name: "model"
     columns:
     - name: "customer_id"
       dataType:
@@ -30,41 +28,3 @@ sources:
     - name: "customer_lifetime_value"
       dataType:
         type: "Double"
-    type: "table"
-  - name: "model"
-    description: "Customer data model containing details such as names, contact information,\
-      \ account flags, and account opening dates."
-    columns:
-    - name: "customer_id"
-      description: "Unique identifier for the customer"
-      dataType:
-        type: "Bigint"
-    - name: "first_name"
-      description: "First name of the customer"
-      dataType:
-        type: "String"
-    - name: "last_name"
-      description: "Last name of the customer"
-      dataType:
-        type: "String"
-    - name: "phone"
-      description: "Phone number of the customer"
-      dataType:
-        type: "String"
-    - name: "email"
-      description: "Customer's email address"
-      dataType:
-        type: "String"
-    - name: "country_code"
-      description: "The country code associated with the customer's location"
-      dataType:
-        type: "String"
-    - name: "account_open_date"
-      description: "Date when the customer's account was opened"
-      dataType:
-        type: "Date"
-    - name: "account_flags"
-      description: "Flags associated with the customer's account"
-      dataType:
-        type: "String"
-    type: "table"
