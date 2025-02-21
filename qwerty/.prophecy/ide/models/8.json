@@ -1,0 +1,48 @@
+{
+  "id" : "8",
+  "metainfo" : {
+    "label" : "8",
+    "autoLayout" : false,
+    "staleState" : "file",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "8##E1OnZoAR" : {
+      "id" : "8##E1OnZoAR",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "8",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "HtD6zCAU",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "JlJkHqXP",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}

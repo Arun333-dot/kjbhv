@@ -24,21 +24,21 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/4:
-    name: '4'
+  .prophecy/metadata/sqlmodels/7:
+    name: '7'
     schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/4.sql
-    - .prophecy/ide/models/4.json
+    - models/7.sql
+    - .prophecy/ide/models/7.json
     sqlDependencies:
       models: []
       datasets: []
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-19 19:05:43'
+    createdAt: '2025-02-21 06:19:04'
   .prophecy/metadata/sqlmodels/3:
     name: '3'
     schema: null
@@ -54,6 +54,21 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:17:35'
+  .prophecy/metadata/sqlmodels/8:
+    name: '8'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/8.sql
+    - .prophecy/ide/models/8.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-21 06:19:13'
   .prophecy/metadata/sqlmodels/bhjnk:
     name: bhjnk
     schema: null
@@ -99,6 +114,21 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:17:27'
+  .prophecy/metadata/sqlmodels/9:
+    name: '9'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/9.sql
+    - .prophecy/ide/models/9.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-21 06:19:22'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
@@ -195,6 +225,36 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
+  .prophecy/metadata/sqlmodels/4:
+    name: '4'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/4.sql
+    - .prophecy/ide/models/4.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 19:05:43'
+  .prophecy/metadata/sqlmodels/10:
+    name: '10'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/10.sql
+    - .prophecy/ide/models/10.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-21 06:19:41'
 sqlSnapshots: {}
 sqlTests:
   .prophecy/metadata/sqltests/hnvgcbfxvd:
