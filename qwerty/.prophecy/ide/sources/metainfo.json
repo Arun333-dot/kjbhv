@@ -136,19 +136,6 @@
         "id" : "E-gHbZCZmB6rK7JtXRewt$$xoUEnoH7FyA4_kxGFVqU3",
         "label" : "OrchestrationSource_1"
       } ]
-    },
-    "4" : {
-      "id" : "4",
-      "name" : "4",
-      "path" : "qwerty/.prophecy/ide/pipelines/4.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ ],
-      "sources" : [ ]
     }
   },
   "externalSources" : {

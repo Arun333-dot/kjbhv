@@ -171,6 +171,29 @@ sqlMacros:
     - gems/jknl.py
     createdAt: '2025-02-19 20:58:04'
 sqlSeeds:
+  .prophecy/metadata/sqlseeds/hjhbhjbhj:
+    name: hjhbhjbhj
+    schema:
+      entityType: ''
+      providerType: databricks
+      fields: []
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - seeds/hjhbhjbhj.csv
+    - seeds/seeds.yml
+    createdAt: '2025-02-21 06:37:17'
+  .prophecy/metadata/sqlseeds/jnknk:
+    name: jnknk
+    schema:
+      entityType: ''
+      providerType: databricks
+      fields: []
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - seeds/jnknk.csv
+    createdAt: '2025-02-20 18:40:54'
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
     schema:
@@ -193,8 +216,8 @@ sqlSeeds:
     files:
     - seeds/hhjghjhj.csv
     createdAt: '2025-02-20 18:31:42'
-  .prophecy/metadata/sqlseeds/jnknk:
-    name: jnknk
+  .prophecy/metadata/sqlseeds/ghbjnk:
+    name: ghbjnk
     schema:
       entityType: ''
       providerType: databricks
@@ -202,8 +225,8 @@ sqlSeeds:
     description: null
     author: arunsharma@prophecy.io
     files:
-    - seeds/jnknk.csv
-    createdAt: '2025-02-20 18:40:54'
+    - seeds/ghbjnk.csv
+    createdAt: '2025-02-21 06:35:41'
   .prophecy/metadata/sqlseeds/seed1:
     name: seed1
     schema:
@@ -214,7 +237,6 @@ sqlSeeds:
     author: arunsharma@prophecy.io
     files:
     - seeds/seed1.csv
-    - seeds/seeds.yml
     createdAt: '2025-02-20 18:53:49'
 sqlSources:
   .prophecy/metadata/sqlsources/hive_metastore_arun123:
