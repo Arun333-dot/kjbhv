@@ -70,8 +70,8 @@
       "kind" : "SFTPSource",
       "metadata" : {
         "label" : "OrchestrationSource_0",
-        "x" : 20,
-        "y" : 20,
+        "x" : 140,
+        "y" : -180,
         "phase" : 0
       },
       "properties" : {
