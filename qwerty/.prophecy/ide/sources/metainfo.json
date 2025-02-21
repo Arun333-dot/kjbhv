@@ -39,8 +39,14 @@
           "fields" : [ ]
         }
       },
-      "preview" : [ ],
-      "sources" : [ ]
+      "preview" : [ {
+        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+        "label" : "OrchestrationSource_0"
+      } ],
+      "sources" : [ {
+        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+        "label" : "OrchestrationSource_0"
+      } ]
     },
     "1" : {
       "id" : "1",
@@ -65,8 +71,14 @@
           "fields" : [ ]
         }
       },
-      "preview" : [ ],
-      "sources" : [ ]
+      "preview" : [ {
+        "id" : "YhCfNNOwLf8dflirMbiaL$$M6bFwqtQWaebMFkixCdQ5",
+        "label" : "OrchestrationSource_0"
+      } ],
+      "sources" : [ {
+        "id" : "YhCfNNOwLf8dflirMbiaL$$M6bFwqtQWaebMFkixCdQ5",
+        "label" : "OrchestrationSource_0"
+      } ]
     },
     "ghvjbknlm" : {
       "id" : "ghvjbknlm",
