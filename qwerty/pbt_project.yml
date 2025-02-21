@@ -41,7 +41,31 @@ sqlModels:
     createdAt: '2025-02-21 06:14:29'
   .prophecy/metadata/sqlmodels/iujoijoijio:
     name: iujoijoijio
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -69,18 +93,21 @@ sqlModels:
       - name: last_name
         dataType:
           type: String
-      - name: first_order
+      - name: phone
+        dataType:
+          type: String
+      - name: email
+        dataType:
+          type: String
+      - name: country_code
+        dataType:
+          type: String
+      - name: account_open_date
         dataType:
           type: Date
-      - name: most_recent_order
+      - name: account_flags
         dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
+          type: String
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -178,18 +205,21 @@ sqlSources:
         - name: last_name
           dataType:
             type: String
-        - name: first_order
+        - name: phone
+          dataType:
+            type: String
+        - name: email
+          dataType:
+            type: String
+        - name: country_code
+          dataType:
+            type: String
+        - name: account_open_date
           dataType:
             type: Date
-        - name: most_recent_order
+        - name: account_flags
           dataType:
-            type: Date
-        - name: number_of_orders
-          dataType:
-            type: Bigint
-        - name: customer_lifetime_value
-          dataType:
-            type: Double
+            type: String
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:49:33'
@@ -222,39 +252,35 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:50:23'
-  .prophecy/metadata/sqlsources/hive_metastore_bad_schema:
-    name: hive_metastore.bad_schema
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - prophecy-sources/sources.yml
-    createdAt: '2025-02-21 06:51:16'
-    tables:
-    - name: catalogsteett
+    - name: sqlmodel
       schema:
         entityType: ''
         providerType: databricks
         fields:
-        - name: customer
+        - name: customer_id
           dataType:
-            type: Struct
-            fields:
-            - name: id
-              dataType:
-                type: Bigint
-            - name: name
-              dataType:
-                type: String
-        - name: order
+            type: Bigint
+        - name: first_name
           dataType:
-            type: Struct
-            fields:
-            - name: amount
-              dataType:
-                type: Bigint
+            type: String
+        - name: last_name
+          dataType:
+            type: String
+        - name: first_order
+          dataType:
+            type: Date
+        - name: most_recent_order
+          dataType:
+            type: Date
+        - name: number_of_orders
+          dataType:
+            type: Bigint
+        - name: customer_lifetime_value
+          dataType:
+            type: Double
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 06:51:16'
+      createdAt: '2025-02-21 06:51:55'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
@@ -312,6 +338,64 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-20 19:35:46'
+  .prophecy/metadata/sqlsources/hive_metastore_bad_schema:
+    name: hive_metastore.bad_schema
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2025-02-21 06:51:16'
+    tables:
+    - name: catalogsteett
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: customer
+          dataType:
+            type: Struct
+            fields:
+            - name: id
+              dataType:
+                type: Bigint
+            - name: name
+              dataType:
+                type: String
+        - name: order
+          dataType:
+            type: Struct
+            fields:
+            - name: amount
+              dataType:
+                type: Bigint
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 06:51:16'
+  .prophecy/metadata/sqlsources/hive_metastore_asadas:
+    name: hive_metastore.asadas
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2025-02-21 06:52:38'
+    tables:
+    - name: test5672
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: country_code
+          dataType:
+            type: String
+        - name: '1'
+          dataType:
+            type: Integer
+        - name: scv
+          dataType:
+            type: String
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 06:52:38'
 sqlUnreferencedSources: {}
 sqlOrchestratorPipelines:
   .prophecy/metadata/sqlorchestratorpipeline/ghvjbknlm:
