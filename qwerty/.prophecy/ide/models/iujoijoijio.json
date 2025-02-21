@@ -3,7 +3,7 @@
   "metainfo" : {
     "label" : "iujoijoijio",
     "autoLayout" : false,
-    "staleState" : "none",
+    "staleState" : "file",
     "sourceSuggestions" : {
       "sources" : [ ]
     },
@@ -66,6 +66,40 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "9R-nSVSmriPie4zn8SmjI",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "zEjHBBMQI1hanA4m491mA$$IaKFq3e2h2TGyaQuxwP8V" : {
+      "id" : "zEjHBBMQI1hanA4m491mA$$IaKFq3e2h2TGyaQuxwP8V",
+      "component" : "Aggregate",
+      "metadata" : {
+        "label" : "Aggregate_1",
+        "slug" : "Aggregate_1",
+        "x" : -720,
+        "y" : -240,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "aggregate" : [ ],
+        "allowSelection" : true,
+        "condition" : {
+          "expression" : ""
+        },
+        "activeTab" : "aggregate",
+        "columnsSelector" : [ ],
+        "groupBy" : [ ]
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "V108dkKf4QSFpDqkY4LkA$$YsC9jZ9zVDZEsC9IN8lqY",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "cbZXcRQY24CeLqh2YTT5b$$PNv7j7trauGYK158UnSN_",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,

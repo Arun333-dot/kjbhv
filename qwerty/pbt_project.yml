@@ -314,15 +314,15 @@ sqlSources:
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/jhbkn/schema.yml
     - models/fgyhuj/schema.yml
+    - models/jhbkn/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
     - name: prophecy__temp_fgyhuj_post_Aggregate_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-20 19:35:46'
+      createdAt: '2025-02-21 09:35:10'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null

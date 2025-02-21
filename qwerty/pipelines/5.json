@@ -51,6 +51,50 @@
         } ],
         "isCustomOutputSchema" : false
       }
+    },
+    "bybIlqNtr0SSQ58RQ9xmr" : {
+      "id" : "bybIlqNtr0SSQ58RQ9xmr",
+      "component" : "Dataset",
+      "metadata" : {
+        "label" : "test5672",
+        "x" : -240,
+        "y" : 0,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "test5672",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.asadas",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "vXeMVePxFsIpGsj-SxBqS",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "XVCrDfAVbTtPl7osttoqg",
+          "schema" : {
+            "entityType" : "",
+            "providerType" : "databricks",
+            "fields" : [ {
+              "name" : "name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "age",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
     }
   },
   "connections" : [ ],
