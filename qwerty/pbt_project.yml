@@ -41,7 +41,31 @@ sqlModels:
     createdAt: '2025-02-21 06:14:29'
   .prophecy/metadata/sqlmodels/iujoijoijio:
     name: iujoijoijio
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -56,7 +80,31 @@ sqlModels:
     createdAt: '2025-02-19 18:55:01'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -98,6 +146,7 @@ sqlMacros:
     files:
     - macros/generate_schema_name.sql
     - .prophecy/ide/macros/generate_schema_name.json
+    - macros/macros_001.yml
     createdAt: '2025-02-19 13:17:34'
   .prophecy/metadata/sqlmacros/jknl:
     name: jknl
@@ -216,58 +265,18 @@ sqlSources:
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/fgyhuj/schema.yml
     - models/jhbkn/schema.yml
+    - models/fgyhuj/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
-    - name: prophecy__temp_jhbkn_post_Filter_1
+    - name: prophecy__temp_fgyhuj_post_Aggregate_1
       schema:
         entityType: ''
         providerType: databricks
         fields: []
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:26:48'
-    - name: prophecy__temp_jhbkn_post_SQLStatement_1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields: []
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:26:48'
-    - name: prophecy__temp_jhbkn_post_Macro_1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields: []
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:26:48'
-    - name: prophecy__temp_jhbkn_post_Reformat_1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields: []
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:26:48'
-    - name: prophecy__temp_jhbkn_post_WindowFunction_1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields: []
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:26:48'
-    - name: prophecy__temp_jhbkn_post_Union_1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields: []
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 11:26:48'
+      createdAt: '2025-02-21 12:09:04'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null
@@ -318,14 +327,6 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/ghvjbknlm.json
     createdAt: '2025-02-20 11:35:59'
-  .prophecy/metadata/sqlorchestratorpipeline/5:
-    name: '5'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/5.json
-    createdAt: '2025-02-21 06:31:34'
   .prophecy/metadata/sqlorchestratorpipeline/kklklmkklmklm:
     name: kklklmkklmklm
     schema: null
@@ -334,6 +335,14 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/kklklmkklmklm.json
     createdAt: '2025-02-21 12:00:04'
+  .prophecy/metadata/sqlorchestratorpipeline/5:
+    name: '5'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/5.json
+    createdAt: '2025-02-21 06:31:34'
 sqlPipeline:
   name: sqlPipeline
   description: null

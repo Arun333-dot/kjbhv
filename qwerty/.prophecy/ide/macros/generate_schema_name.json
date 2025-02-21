@@ -2,7 +2,7 @@
   "generate_schema_name" : {
     "name" : "generate_schema_name",
     "macroType" : "expression",
-    "definition" : "{% set default_schema = target.schema %}\n \n{% if custom_schema_name is none %}\n  {{default_schema}}\n{% else %}\n  {{custom_schema_name | trim}}\n{% endif %} \n",
+    "definition" : "{% set default_schema = target.schema %}\n{% if custom_schema_name is none %}\n  {{default_schema}}\n{% else %}\n  {{custom_schema_name | trim}}\n{% endif %} \n",
     "parameters" : {
       "type" : "record",
       "fields" : [ {
