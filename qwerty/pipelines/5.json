@@ -33,7 +33,7 @@
         "table" : {
           "name" : "test5672",
           "sourceType" : "Source",
-          "sourceName" : "hive_metastore.asadas",
+          "sourceName" : "hive_metastore.aman",
           "alias" : ""
         }
       },
