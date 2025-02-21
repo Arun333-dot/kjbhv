@@ -1,4 +1,4 @@
-{% macro f2() %}
+{% macro f6() %}
 
 {% endmacro %}
 
