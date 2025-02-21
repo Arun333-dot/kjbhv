@@ -1,6 +1,6 @@
 name: qwerty
 description: kjnkjnjklkm
-version: '11'
+version: '15'
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
@@ -238,7 +238,15 @@ sqlModels:
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
 sqlSnapshots: {}
-sqlTests: {}
+sqlTests:
+  .prophecy/metadata/sqltests/hnvgcbfxvd:
+    name: hnvgcbfxvd
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - tests/generic/hnvgcbfxvd.sql/hnvgcbfxvd.sql
+    testType: GenericDataTest
+    createdAt: '2025-02-19 21:00:03'
 sqlMacros:
   .prophecy/metadata/sqlmacros/generate_schema_name:
     name: generate_schema_name
@@ -249,6 +257,26 @@ sqlMacros:
     - macros/generate_schema_name.sql
     - .prophecy/ide/macros/generate_schema_name.json
     createdAt: '2025-02-19 13:17:34'
+  .prophecy/metadata/sqlmacros/hjknkml:
+    name: hjknkml
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/hjknkml.sql/hjknkml.sql
+    - .prophecy/ide/macros/hjknkml.json
+    createdAt: '2025-02-19 21:01:11'
+  .prophecy/metadata/sqlmacros/jknl:
+    name: jknl
+    macroType: query
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/jknl.sql
+    - .prophecy/ide/macros/jknl.json
+    - macros/macros.yml
+    - gems/jknl.py
+    createdAt: '2025-02-19 20:58:04'
 sqlSeeds: {}
 sqlSources:
   .prophecy/metadata/sqlsources/hive_metastore_arun123:
@@ -337,22 +365,14 @@ sqlSources:
       createdAt: '2025-02-19 17:44:51'
 sqlUnreferencedSources: {}
 sqlOrchestratorPipelines:
-  .prophecy/metadata/sqlorchestratorpipeline/jknlmjnkjnjk:
-    name: jknlmjnkjnjk
+  .prophecy/metadata/sqlorchestratorpipeline/bjhnkml:
+    name: bjhnkml
     schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
-    - pipelines/jknlmjnkjnjk.json
-    createdAt: '2025-02-19 20:51:30'
-  .prophecy/metadata/sqlorchestratorpipeline/sfdgf:
-    name: sfdgf
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/sfdgf.json
-    createdAt: '2025-02-19 20:32:35'
+    - pipelines/bjhnkml.json
+    createdAt: '2025-02-19 20:58:26'
 sqlPipeline:
   name: sqlPipeline
   description: null

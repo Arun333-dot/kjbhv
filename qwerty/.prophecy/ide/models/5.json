@@ -30,7 +30,7 @@
         "customQueryDisabled" : true,
         "customQuery" : false,
         "incrementalEditorDisabled" : true,
-        "query" : "SELECT * \n\nFROM model\n",
+        "query" : "SELECT * \n\nFROM Reformat_1\n",
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"
@@ -39,7 +39,7 @@
       "ports" : {
         "inputs" : [ {
           "id" : "szZBzC6i",
-          "slug" : "model"
+          "slug" : "Reformat_1"
         } ],
         "outputs" : [ {
           "id" : "yjt89Xt7",
@@ -77,12 +77,46 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       }
+    },
+    "3SULB5qQQW2fpec7Yi4BX$$DzRHQWqWObU_8Dp7isme_" : {
+      "id" : "3SULB5qQQW2fpec7Yi4BX$$DzRHQWqWObU_8Dp7isme_",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1",
+        "slug" : "Reformat_1",
+        "x" : 100,
+        "y" : -60,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ ]
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "beBp1lZaaUmhyB6vFSVda$$Nhx5DVnRIlXCCZf_Zf-NA",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "5gy0quLr3H6M9lm3rezor$$XslrHwKAqL2SafPhk36yy",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
     }
   },
   "connections" : [ {
-    "id" : "6qnsFRo3QUiourkaSSmyU$$gP9PWwdTAWP5o_o1JU4jU",
+    "id" : "FIZaQjOte5wXEpfcZ6omN",
     "source" : "IvWSMwqtK19c-fKW287jE",
     "sourcePort" : "BSZVdxOUB2GdWtlbZP-qo",
+    "target" : "3SULB5qQQW2fpec7Yi4BX$$DzRHQWqWObU_8Dp7isme_",
+    "targetPort" : "beBp1lZaaUmhyB6vFSVda$$Nhx5DVnRIlXCCZf_Zf-NA"
+  }, {
+    "id" : "0dh7U6kZ7JafS9I1NrlSu",
+    "source" : "3SULB5qQQW2fpec7Yi4BX$$DzRHQWqWObU_8Dp7isme_",
+    "sourcePort" : "5gy0quLr3H6M9lm3rezor$$XslrHwKAqL2SafPhk36yy",
     "target" : "final##syNVj19s",
     "targetPort" : "szZBzC6i"
   } ],
