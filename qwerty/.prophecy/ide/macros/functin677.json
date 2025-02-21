@@ -1,0 +1,29 @@
+{
+  "functin677" : {
+    "name" : "functin677",
+    "macroType" : "expression",
+    "definition" : "print(\"arun\")",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ ]
+    },
+    "staleState" : "none",
+    "propertiesFile" : {
+      "name" : "functin677.sql",
+      "content" : "---\nversion: 2\nmacros:\n- name: \"functin677\"\n  arguments: []\n  macroType: \"expression\"\n",
+      "path" : "qwerty/macros/functin677.sql/functin677.sql.yml",
+      "projectConfiguration" : null,
+      "folderConfiguration" : {
+        "version" : 2,
+        "macros" : [ {
+          "name" : "functin677",
+          "arguments" : [ ],
+          "macroType" : "expression"
+        } ]
+      },
+      "packagesYml" : null,
+      "editable" : true
+    },
+    "version" : 0
+  }
+}

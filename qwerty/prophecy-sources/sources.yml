@@ -4,8 +4,6 @@ sources:
 - name: "hive_metastore.arun123"
   database: "hive_metastore"
   schema: "arun123"
-  config:
-    enabled: true
   tables:
   - name: "model"
     description: "Customer data including names, order history, and lifetime value\
@@ -79,3 +77,26 @@ sources:
       dataType:
         type: "String"
     type: "table"
+  - name: "model1"
+    columns:
+    - name: "customer_id"
+      dataType:
+        type: "Bigint"
+    - name: "first_name"
+      dataType:
+        type: "String"
+    - name: "last_name"
+      dataType:
+        type: "String"
+    - name: "first_order"
+      dataType:
+        type: "Date"
+    - name: "most_recent_order"
+      dataType:
+        type: "Date"
+    - name: "number_of_orders"
+      dataType:
+        type: "Bigint"
+    - name: "customer_lifetime_value"
+      dataType:
+        type: "Double"

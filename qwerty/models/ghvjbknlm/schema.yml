@@ -1,0 +1,52 @@
+---
+version: 2
+models:
+- name: "model_ghvjbknlm_Macro_1"
+  tags:
+  - "prophecy_temp"
+- name: "model_ghvjbknlm_Reformat_1"
+  tags:
+  - "prophecy_temp"
+- name: "model_ghvjbknlm_Filter_1"
+  tags:
+  - "prophecy_temp"
+- name: "model_ghvjbknlm_WindowFunction_1"
+  tags:
+  - "prophecy_temp"
+- name: "model_ghvjbknlm_Union_1"
+  tags:
+  - "prophecy_temp"
+- name: "model_ghvjbknlm_SQLStatement_1"
+  tags:
+  - "prophecy_temp"
+- name: "model_ghvjbknlm_Aggregate_2"
+  tags:
+  - "prophecy_temp"
+sources:
+- name: "prophecy__temp_ghvjbknlm_source"
+  database: "database"
+  schema: "default"
+  config:
+    enabled: true
+  tables:
+  - name: "prophecy__temp_ghvjbknlm_post_Macro_1"
+    tags:
+    - "prophecy_temp"
+  - name: "prophecy__temp_ghvjbknlm_post_Aggregate_2"
+    tags:
+    - "prophecy_temp"
+  - name: "prophecy__temp_ghvjbknlm_post_Filter_1"
+    tags:
+    - "prophecy_temp"
+  - name: "prophecy__temp_ghvjbknlm_post_Union_1"
+    tags:
+    - "prophecy_temp"
+  - name: "prophecy__temp_ghvjbknlm_post_Reformat_1"
+    tags:
+    - "prophecy_temp"
+  - name: "prophecy__temp_ghvjbknlm_post_SQLStatement_1"
+    tags:
+    - "prophecy_temp"
+  - name: "prophecy__temp_ghvjbknlm_post_WindowFunction_1"
+    tags:
+    - "prophecy_temp"
