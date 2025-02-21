@@ -146,7 +146,7 @@ sqlMacros:
     files:
     - macros/f6.sql/f6.sql
     - .prophecy/ide/macros/f6.json
-    createdAt: '2025-02-21 07:16:55'
+    createdAt: '2025-02-21 07:18:02'
   .prophecy/metadata/sqlmacros/f5:
     name: f5
     macroType: expression
@@ -155,7 +155,7 @@ sqlMacros:
     files:
     - macros/f5.sql/f5.sql
     - .prophecy/ide/macros/f5.json
-    createdAt: '2025-02-21 07:16:50'
+    createdAt: '2025-02-21 07:17:57'
   .prophecy/metadata/sqlmacros/generate_schema_name:
     name: generate_schema_name
     macroType: expression
@@ -176,6 +176,15 @@ sqlMacros:
     - macros/macros.yml
     - gems/jknl.py
     createdAt: '2025-02-19 20:58:04'
+  .prophecy/metadata/sqlmacros/f4:
+    name: f4
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/f4.sql/f4.sql
+    - .prophecy/ide/macros/f4.json
+    createdAt: '2025-02-21 07:17:52'
   .prophecy/metadata/sqlmacros/functin677:
     name: functin677
     macroType: expression
