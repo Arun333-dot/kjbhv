@@ -168,15 +168,6 @@ sqlMacros:
     - .prophecy/ide/macros/functin677.json
     - macros/functin677.sql/functin677.sql.yml
     createdAt: '2025-02-20 19:26:07'
-  .prophecy/metadata/sqlmacros/f1:
-    name: f1
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/f1.sql/f1.sql
-    - .prophecy/ide/macros/f1.json
-    createdAt: '2025-02-21 07:13:46'
   .prophecy/metadata/sqlmacros/hjknkml:
     name: hjknkml
     macroType: expression
