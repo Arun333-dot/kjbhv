@@ -80,7 +80,31 @@ sqlModels:
     createdAt: '2025-02-19 18:55:01'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -104,16 +128,15 @@ sqlTests:
     testType: GenericDataTest
     createdAt: '2025-02-19 21:00:03'
 sqlMacros:
-  .prophecy/metadata/sqlmacros/functin677:
-    name: functin677
+  .prophecy/metadata/sqlmacros/f3:
+    name: f3
     macroType: expression
     description: null
     author: arunsharma@prophecy.io
     files:
-    - macros/functin677.sql/functin677.sql
-    - .prophecy/ide/macros/functin677.json
-    - macros/functin677.sql/functin677.sql.yml
-    createdAt: '2025-02-20 19:26:07'
+    - macros/f3.sql/f3.sql
+    - .prophecy/ide/macros/f3.json
+    createdAt: '2025-02-21 07:07:28'
   .prophecy/metadata/sqlmacros/generate_schema_name:
     name: generate_schema_name
     macroType: expression
@@ -123,15 +146,6 @@ sqlMacros:
     - macros/generate_schema_name.sql
     - .prophecy/ide/macros/generate_schema_name.json
     createdAt: '2025-02-19 13:17:34'
-  .prophecy/metadata/sqlmacros/hjknkml:
-    name: hjknkml
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/hjknkml.sql/hjknkml.sql
-    - .prophecy/ide/macros/hjknkml.json
-    createdAt: '2025-02-19 21:01:11'
   .prophecy/metadata/sqlmacros/jknl:
     name: jknl
     macroType: query
@@ -143,6 +157,43 @@ sqlMacros:
     - macros/macros.yml
     - gems/jknl.py
     createdAt: '2025-02-19 20:58:04'
+  .prophecy/metadata/sqlmacros/functin677:
+    name: functin677
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/functin677.sql/functin677.sql
+    - .prophecy/ide/macros/functin677.json
+    - macros/functin677.sql/functin677.sql.yml
+    createdAt: '2025-02-20 19:26:07'
+  .prophecy/metadata/sqlmacros/f1:
+    name: f1
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/f1.sql/f1.sql
+    - .prophecy/ide/macros/f1.json
+    createdAt: '2025-02-21 07:07:17'
+  .prophecy/metadata/sqlmacros/hjknkml:
+    name: hjknkml
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/hjknkml.sql/hjknkml.sql
+    - .prophecy/ide/macros/hjknkml.json
+    createdAt: '2025-02-19 21:01:11'
+  .prophecy/metadata/sqlmacros/f2:
+    name: f2
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/f2.sql/f2.sql
+    - .prophecy/ide/macros/f2.json
+    createdAt: '2025-02-21 07:07:23'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
@@ -193,6 +244,35 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:51:55'
+    - name: model
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: customer_id
+          dataType:
+            type: Bigint
+        - name: first_name
+          dataType:
+            type: String
+        - name: last_name
+          dataType:
+            type: String
+        - name: first_order
+          dataType:
+            type: Date
+        - name: most_recent_order
+          dataType:
+            type: Date
+        - name: number_of_orders
+          dataType:
+            type: Bigint
+        - name: customer_lifetime_value
+          dataType:
+            type: Double
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 07:08:08'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
