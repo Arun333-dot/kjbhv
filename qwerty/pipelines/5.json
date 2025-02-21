@@ -30,7 +30,7 @@
         "phase" : 0
       },
       "properties" : {
-        "table" : {
+        "view" : {
           "name" : "test5672",
           "sourceType" : "Source",
           "sourceName" : "hive_metastore.asadas",
