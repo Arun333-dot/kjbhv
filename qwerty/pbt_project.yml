@@ -84,21 +84,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:26:15'
-  .prophecy/metadata/sqlmodels/2:
-    name: '2'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/2.sql
-    - .prophecy/ide/models/2.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:17:27'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
