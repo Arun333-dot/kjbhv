@@ -82,6 +82,40 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       }
+    },
+    "kLY1g_f0lT9qi4lMInor1$$gu3mvIGS7WLoVDQSe9Ma1" : {
+      "id" : "kLY1g_f0lT9qi4lMInor1$$gu3mvIGS7WLoVDQSe9Ma1",
+      "component" : "Aggregate",
+      "metadata" : {
+        "label" : "Aggregate_2",
+        "slug" : "Aggregate_2",
+        "x" : -340,
+        "y" : 200,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "aggregate" : [ ],
+        "allowSelection" : true,
+        "condition" : {
+          "expression" : ""
+        },
+        "activeTab" : "aggregate",
+        "columnsSelector" : [ ],
+        "groupBy" : [ ]
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "qbtqsRcaNlvyzTPYwxY-Y$$-Ow1ayUUh-eKGAQ2mdD-L",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "LKGzXNRFTw2Y64mLbOx8x$$PcORhjFYYE2uhaoaxMyQn",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
     }
   },
   "connections" : [ {
