@@ -1042,11 +1042,6 @@
     "type" : "Model",
     "syncedOnce" : false
   }, {
-    "name" : "model",
-    "type" : "Source",
-    "sourceName" : "hive_metastore.asadas",
-    "syncedOnce" : true
-  }, {
     "name" : "sqlmodel",
     "type" : "Source",
     "sourceName" : "hive_metastore.arun123",

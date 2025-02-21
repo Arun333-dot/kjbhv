@@ -67,17 +67,6 @@ sources:
     - name: "customer_lifetime_value"
       dataType:
         type: "Double"
-  - name: "model"
-    columns:
-    - name: "country_code"
-      dataType:
-        type: "String"
-    - name: "1"
-      dataType:
-        type: "Integer"
-    - name: "scv"
-      dataType:
-        type: "String"
 - name: "hive_metastore.default_qa_schema"
   database: "hive_metastore"
   schema: "default_qa_schema"

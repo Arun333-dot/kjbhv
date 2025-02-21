@@ -301,23 +301,6 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:58:20'
-    - name: model
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: country_code
-          dataType:
-            type: String
-        - name: '1'
-          dataType:
-            type: Integer
-        - name: scv
-          dataType:
-            type: String
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 06:59:00'
   .prophecy/metadata/sqlsources/hive_metastore_bad_schema:
     name: hive_metastore.bad_schema
     description: null
