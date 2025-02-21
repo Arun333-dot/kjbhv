@@ -54,6 +54,45 @@ sqlModels:
       - name: last_name
         dataType:
           type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/iujoijoijio.sql
+    - .prophecy/ide/models/iujoijoijio.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 18:55:01'
+  .prophecy/metadata/sqlmodels/uiiujijiji:
+    name: uiiujijiji
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
       - name: phone
         dataType:
           type: String
@@ -69,21 +108,6 @@ sqlModels:
       - name: account_flags
         dataType:
           type: String
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/iujoijoijio.sql
-    - .prophecy/ide/models/iujoijoijio.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 18:55:01'
-  .prophecy/metadata/sqlmodels/uiiujijiji:
-    name: uiiujijiji
-    schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -147,17 +171,6 @@ sqlMacros:
     - gems/jknl.py
     createdAt: '2025-02-19 20:58:04'
 sqlSeeds:
-  .prophecy/metadata/sqlseeds/hjhbhjbhj:
-    name: hjhbhjbhj
-    schema:
-      entityType: ''
-      providerType: databricks
-      fields: []
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - seeds/hjhbhjbhj.csv
-    createdAt: '2025-02-21 06:37:17'
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
     schema:
@@ -169,40 +182,6 @@ sqlSeeds:
     files:
     - seeds/ghnj.csv
     createdAt: '2025-02-20 18:49:27'
-  .prophecy/metadata/sqlseeds/ghbjnk:
-    name: ghbjnk
-    schema:
-      entityType: ''
-      providerType: databricks
-      fields: []
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - seeds/ghbjnk.csv
-    createdAt: '2025-02-21 06:35:41'
-  .prophecy/metadata/sqlseeds/seed1:
-    name: seed1
-    schema:
-      entityType: ''
-      providerType: databricks
-      fields: []
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - seeds/seed1.csv
-    createdAt: '2025-02-20 18:53:49'
-  .prophecy/metadata/sqlseeds/jbhbhjbhj:
-    name: jbhbhjbhj
-    schema:
-      entityType: ''
-      providerType: databricks
-      fields: []
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - seeds/jbhbhjbhj.csv
-    - seeds/seeds.yml
-    createdAt: '2025-02-21 06:40:09'
 sqlSources:
   .prophecy/metadata/sqlsources/hive_metastore_arun123:
     name: hive_metastore.arun123
@@ -213,6 +192,36 @@ sqlSources:
     createdAt: '2025-02-19 18:29:42'
     tables:
     - name: sqlmodel
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: customer_id
+          dataType:
+            type: Bigint
+        - name: first_name
+          dataType:
+            type: String
+        - name: last_name
+          dataType:
+            type: String
+        - name: first_order
+          dataType:
+            type: Date
+        - name: most_recent_order
+          dataType:
+            type: Date
+        - name: number_of_orders
+          dataType:
+            type: Bigint
+        - name: customer_lifetime_value
+          dataType:
+            type: Double
+      description: Customer data model containing details such as names, contact information,
+        account flags, and account opening dates.
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-19 18:55:07'
+    - name: model
       schema:
         entityType: ''
         providerType: databricks
@@ -244,7 +253,7 @@ sqlSources:
       description: Customer data model containing details such as names, contact information,
         account flags, and account opening dates.
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-19 18:55:07'
+      createdAt: '2025-02-21 06:48:05'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
