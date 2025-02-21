@@ -129,6 +129,15 @@ sqlTests:
     testType: GenericDataTest
     createdAt: '2025-02-19 21:00:03'
 sqlMacros:
+  .prophecy/metadata/sqlmacros/function:
+    name: function
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/function.sql/function.sql
+    - .prophecy/ide/macros/function.json
+    createdAt: '2025-02-21 07:19:52'
   .prophecy/metadata/sqlmacros/hjknkml:
     name: hjknkml
     macroType: expression
@@ -322,15 +331,40 @@ sqlSources:
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/jhbkn/schema.yml
     - models/fgyhuj/schema.yml
+    - models/jhbkn/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
-    - name: prophecy__temp_fgyhuj_post_Aggregate_1
+    - name: prophecy__temp_jhbkn_post_Filter_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-20 19:35:46'
+      createdAt: '2025-02-21 07:56:05'
+    - name: prophecy__temp_jhbkn_post_SQLStatement_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 07:56:05'
+    - name: prophecy__temp_jhbkn_post_Macro_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 07:56:05'
+    - name: prophecy__temp_jhbkn_post_Reformat_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 07:56:05'
+    - name: prophecy__temp_jhbkn_post_WindowFunction_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 07:56:05'
+    - name: prophecy__temp_jhbkn_post_Union_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 07:56:05'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null
