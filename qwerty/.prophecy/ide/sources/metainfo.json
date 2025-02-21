@@ -15,7 +15,259 @@
     "editable" : true
   },
   "datasets" : { },
-  "pipelines" : { },
+  "pipelines" : {
+    "8" : {
+      "id" : "8",
+      "name" : "8",
+      "path" : "qwerty/.prophecy/ide/pipelines/8.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "4" : {
+      "id" : "4",
+      "name" : "4",
+      "path" : "qwerty/.prophecy/ide/pipelines/4.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "bjhnk" : {
+      "id" : "bjhnk",
+      "name" : "bjhnk",
+      "path" : "qwerty/.prophecy/ide/pipelines/bjhnk.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "9" : {
+      "id" : "9",
+      "name" : "9",
+      "path" : "qwerty/.prophecy/ide/pipelines/9.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "5" : {
+      "id" : "5",
+      "name" : "5",
+      "path" : "qwerty/.prophecy/ide/pipelines/5.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ {
+        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+        "label" : "OrchestrationSource_0"
+      } ],
+      "sources" : [ {
+        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+        "label" : "OrchestrationSource_0"
+      } ]
+    },
+    "6" : {
+      "id" : "6",
+      "name" : "6",
+      "path" : "qwerty/.prophecy/ide/pipelines/6.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "1" : {
+      "id" : "1",
+      "name" : "1",
+      "path" : "qwerty/.prophecy/ide/pipelines/1.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "2" : {
+      "id" : "2",
+      "name" : "2",
+      "path" : "qwerty/.prophecy/ide/pipelines/2.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "ghvjbknlm" : {
+      "id" : "ghvjbknlm",
+      "name" : "ghvjbknlm",
+      "path" : "qwerty/.prophecy/ide/pipelines/ghvjbknlm.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ {
+        "id" : "A9oIAi1FWlVueEiIz2BS1$$PW2tC5CitJ2TCVlPLzKnd",
+        "label" : "WindowFunction_1"
+      }, {
+        "id" : "jHTciYp03IX3s1DCTy5r4$$e4riQhFOBJMPbeANpkIxB",
+        "label" : "OrchestrationTarget_1"
+      }, {
+        "id" : "0Z_KQRNbjFNx6BaekVv0S$$4Frolwzq9mUfxrwzoami_",
+        "label" : "OrchestrationTarget_2"
+      }, {
+        "id" : "Wq5dGu6_SXTOobnNWM9O_$$P0xk1Z_kK5y81cx7MzRgx",
+        "label" : "SQLStatement_1"
+      }, {
+        "id" : "K6rRePzhAJxfY10CFmhx-$$TkL6BruR03SkQTGRKF2tL",
+        "label" : "FlattenSchema_1"
+      }, {
+        "id" : "Z51qbILqJdAQVlVSGjaL-$$BtxeKIuL6iGLfjjv9z7_E",
+        "label" : "Reformat_1"
+      }, {
+        "id" : "EihDHF9sS_2GptKHYT5Bb$$fc-BcyTIDmxWlVwmzFL-W",
+        "label" : "OrchestrationSource_0"
+      }, {
+        "id" : "4BS5swX3CPloKeo9P6E4K$$Olb0HXWlsoofPJ8I5ek2n",
+        "label" : "Union_1"
+      }, {
+        "id" : "fBq62-g2vxrV28ddOgQrK$$TWTzMZt-Qu7iwrn7gRx9v",
+        "label" : "Dataset_2"
+      }, {
+        "id" : "610uKYOONMV05j8Rktaxt$$QAibfeuesuMV5c4p8Cfkv",
+        "label" : "Dataset_1"
+      }, {
+        "id" : "unxXnSJzYIykqgB0kJoPy$$5uWqCXEUCwiYoWboSTya0",
+        "label" : "Aggregate_1"
+      }, {
+        "id" : "QFiU6JHEiVLl00llypKNt$$SO_1rFGyBvTb7s2tj2tkr",
+        "label" : "Email_1"
+      }, {
+        "id" : "Z_W6YJ-AjY-zjV6pjCaHW$$BoAsmFgQPitFZlc0lge9N",
+        "label" : "Deduplicate_1"
+      }, {
+        "id" : "28PAIA7fHXNI3zcaM3Zrm$$OXP6_Zbgn-iyXE0XNpPS1",
+        "label" : "Dataset_5"
+      }, {
+        "id" : "budcA0YxRj_cXSv19oB9f$$Sbphih7jYTqO0ITrMzZzm",
+        "label" : "Dataset_6"
+      }, {
+        "id" : "eL4n2as2soIFRio8GOQzu$$fnGjd7OS8tiW2vFzUcTBk",
+        "label" : "OrchestrationSource_2"
+      }, {
+        "id" : "2r8XeEOetqcwTyD7j0FKY$$uTEFkqdXcYqDdnnKTphfL",
+        "label" : "Dataset_3"
+      }, {
+        "id" : "iSIxrVCiWmEmBG9CZrgVq$$-fy2IbJyhAw2Hb5zHNs-w",
+        "label" : "Aggregate_2"
+      }, {
+        "id" : "YCsqpOaaeIM22WDtvHi8x$$6z8pAwIFY0L8-R5cPfE_u",
+        "label" : "Limit_1"
+      }, {
+        "id" : "RgvdoPPBiaDMcoZq3aLTg$$smMjgTjUcocLLahe3Jt7z",
+        "label" : "Join_1"
+      }, {
+        "id" : "z6Q09tVv92DZoo7PpxI5o$$e0J04q0fPy5buSQ9QrRMk",
+        "label" : "Macro_1"
+      }, {
+        "id" : "E-gHbZCZmB6rK7JtXRewt$$xoUEnoH7FyA4_kxGFVqU3",
+        "label" : "OrchestrationSource_1"
+      }, {
+        "id" : "eUpFiQLnH1M-mtVFM6rke$$BsVV08TKmSTYqZSv6qzwP",
+        "label" : "Filter_1"
+      }, {
+        "id" : "XM8PtWc8IftBjGAmekjP9$$gVEGxvW58GI_RGHRS5BOW",
+        "label" : "OrderBy_1"
+      }, {
+        "id" : "TcrABR7d0Bdjc45F88kf0$$-QQ0_nwD5y4oWxi7Vk_zg",
+        "label" : "Dataset_4",
+        "schema" : {
+          "entityType" : "",
+          "providerType" : "databricks",
+          "fields" : [ ]
+        }
+      } ],
+      "sources" : [ {
+        "id" : "EihDHF9sS_2GptKHYT5Bb$$fc-BcyTIDmxWlVwmzFL-W",
+        "label" : "OrchestrationSource_0"
+      }, {
+        "id" : "eL4n2as2soIFRio8GOQzu$$fnGjd7OS8tiW2vFzUcTBk",
+        "label" : "OrchestrationSource_2"
+      }, {
+        "id" : "E-gHbZCZmB6rK7JtXRewt$$xoUEnoH7FyA4_kxGFVqU3",
+        "label" : "OrchestrationSource_1"
+      } ]
+    },
+    "7" : {
+      "id" : "7",
+      "name" : "7",
+      "path" : "qwerty/.prophecy/ide/pipelines/7.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "nkj" : {
+      "id" : "nkj",
+      "name" : "nkj",
+      "path" : "qwerty/.prophecy/ide/pipelines/nkj.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "3" : {
+      "id" : "3",
+      "name" : "3",
+      "path" : "qwerty/.prophecy/ide/pipelines/3.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    }
+  },
   "externalSources" : {
     "type" : "Project",
     "name" : "",
@@ -916,25 +1168,14 @@
     "prophecyProjectDependencies" : { }
   },
   "entitiesToSync" : [ {
-    "name" : "3",
-    "type" : "Model",
-    "syncedOnce" : false
-  }, {
-    "name" : "4",
-    "type" : "Model",
-    "syncedOnce" : false
-  }, {
-    "name" : "5",
-    "type" : "Model",
-    "syncedOnce" : false
-  }, {
     "name" : "iujoijoijio",
     "type" : "Model",
     "syncedOnce" : false
   }, {
-    "name" : "uiiujijiji",
-    "type" : "Model",
-    "syncedOnce" : false
+    "name" : "sqlmodel",
+    "type" : "Source",
+    "sourceName" : "hive_metastore.arun123",
+    "syncedOnce" : true
   } ],
   "frontEndLanguage" : "sql"
 }

@@ -1,0 +1,86 @@
+{
+  "id" : "model_ghvjbknlm_Macro_1",
+  "metainfo" : {
+    "label" : "model_ghvjbknlm_Macro_1",
+    "autoLayout" : true,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "graphConfig" : {
+      "entityConfig" : {
+        "alias" : "\"prophecy__temp_ghvjbknlm_post_Macro_1\"",
+        "materialized" : "table",
+        "database" : "\"database\"",
+        "schema" : "\"default\"",
+        "type" : "ModelConfig"
+      }
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "prophecy__temp_ghvjbknlm_post_Macro_1" : {
+      "id" : "prophecy__temp_ghvjbknlm_post_Macro_1",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "prophecy__temp_ghvjbknlm_post_Macro_1",
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "\nSELECT *\n\nFROM Macro_1\n\n",
+        "isModel" : true,
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "input_port_0_1",
+          "slug" : "input_port_0_1"
+        } ],
+        "outputs" : [ {
+          "id" : "output_port_0_1",
+          "slug" : "output_port_0_1"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "z6Q09tVv92DZoo7PpxI5o$$e0J04q0fPy5buSQ9QrRMk" : {
+      "id" : "z6Q09tVv92DZoo7PpxI5o$$e0J04q0fPy5buSQ9QrRMk",
+      "component" : "Macro",
+      "metadata" : {
+        "label" : "Macro_1",
+        "x" : 20,
+        "y" : 1620,
+        "phase" : 0
+      },
+      "properties" : {
+        "macroName" : null,
+        "parameters" : [ ],
+        "projectName" : null
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "uVDZFYMrdevmN6scocxUp$$isMW1FgltMlXHhrAG_Ov3",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "conn_z6Q09tVv92DZoo7PpxI5o$$e0J04q0fPy5buSQ9QrRMk_prophecy__temp_ghvjbknlm_post_Macro_1",
+    "source" : "z6Q09tVv92DZoo7PpxI5o$$e0J04q0fPy5buSQ9QrRMk",
+    "sourcePort" : "uVDZFYMrdevmN6scocxUp$$isMW1FgltMlXHhrAG_Ov3",
+    "target" : "prophecy__temp_ghvjbknlm_post_Macro_1",
+    "targetPort" : "input_port_0_1"
+  } ],
+  "component" : "Model"
+}
