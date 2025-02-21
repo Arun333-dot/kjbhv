@@ -24,36 +24,6 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/4:
-    name: '4'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/4.sql
-    - .prophecy/ide/models/4.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:26:07'
-  .prophecy/metadata/sqlmodels/3:
-    name: '3'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/3.sql
-    - .prophecy/ide/models/3.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:17:35'
   .prophecy/metadata/sqlmodels/bhjnk:
     name: bhjnk
     schema: null
@@ -69,75 +39,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:14:29'
-  .prophecy/metadata/sqlmodels/5:
-    name: '5'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/5.sql
-    - .prophecy/ide/models/5.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:26:15'
-  .prophecy/metadata/sqlmodels/uiiujijiji:
-    name: uiiujijiji
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/uiiujijiji.sql
-    - .prophecy/ide/models/uiiujijiji.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 17:57:24'
-  .prophecy/metadata/sqlmodels/6:
-    name: '6'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/6.sql
-    - .prophecy/ide/models/6.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:26:31'
   .prophecy/metadata/sqlmodels/iujoijoijio:
     name: iujoijoijio
     schema:
@@ -180,6 +81,45 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
+  .prophecy/metadata/sqlmodels/uiiujijiji:
+    name: uiiujijiji
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/uiiujijiji.sql
+    - .prophecy/ide/models/uiiujijiji.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-19 17:57:24'
 sqlSnapshots: {}
 sqlTests:
   .prophecy/metadata/sqltests/hnvgcbfxvd:
@@ -436,6 +376,30 @@ sqlSources:
       createdAt: '2025-02-20 19:35:46'
 sqlUnreferencedSources: {}
 sqlOrchestratorPipelines:
+  .prophecy/metadata/sqlorchestratorpipeline/1:
+    name: '1'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/1.json
+    createdAt: '2025-02-21 06:31:05'
+  .prophecy/metadata/sqlorchestratorpipeline/3:
+    name: '3'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/3.json
+    createdAt: '2025-02-21 06:31:18'
+  .prophecy/metadata/sqlorchestratorpipeline/4:
+    name: '4'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/4.json
+    createdAt: '2025-02-21 06:31:26'
   .prophecy/metadata/sqlorchestratorpipeline/ghvjbknlm:
     name: ghvjbknlm
     schema: null
@@ -444,6 +408,22 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/ghvjbknlm.json
     createdAt: '2025-02-20 11:35:59'
+  .prophecy/metadata/sqlorchestratorpipeline/5:
+    name: '5'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/5.json
+    createdAt: '2025-02-21 06:31:34'
+  .prophecy/metadata/sqlorchestratorpipeline/2:
+    name: '2'
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/2.json
+    createdAt: '2025-02-21 06:31:12'
 sqlPipeline:
   name: sqlPipeline
   description: null

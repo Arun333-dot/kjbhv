@@ -16,6 +16,58 @@
   },
   "datasets" : { },
   "pipelines" : {
+    "4" : {
+      "id" : "4",
+      "name" : "4",
+      "path" : "qwerty/.prophecy/ide/pipelines/4.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "5" : {
+      "id" : "5",
+      "name" : "5",
+      "path" : "qwerty/.prophecy/ide/pipelines/5.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "1" : {
+      "id" : "1",
+      "name" : "1",
+      "path" : "qwerty/.prophecy/ide/pipelines/1.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "2" : {
+      "id" : "2",
+      "name" : "2",
+      "path" : "qwerty/.prophecy/ide/pipelines/2.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
     "ghvjbknlm" : {
       "id" : "ghvjbknlm",
       "name" : "ghvjbknlm",
@@ -117,6 +169,19 @@
         "id" : "E-gHbZCZmB6rK7JtXRewt$$xoUEnoH7FyA4_kxGFVqU3",
         "label" : "OrchestrationSource_1"
       } ]
+    },
+    "3" : {
+      "id" : "3",
+      "name" : "3",
+      "path" : "qwerty/.prophecy/ide/pipelines/3.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
     }
   },
   "externalSources" : {
