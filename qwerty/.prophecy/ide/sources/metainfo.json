@@ -1019,10 +1019,6 @@
     "prophecyProjectDependencies" : { }
   },
   "entitiesToSync" : [ {
-    "name" : "7",
-    "type" : "Model",
-    "syncedOnce" : false
-  }, {
     "name" : "iujoijoijio",
     "type" : "Model",
     "syncedOnce" : false
