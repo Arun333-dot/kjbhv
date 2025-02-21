@@ -129,6 +129,9 @@
         }
       },
       "preview" : [ {
+        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+        "label" : "OrchestrationSource_0"
+      }, {
         "id" : "bybIlqNtr0SSQ58RQ9xmr",
         "label" : "test5672",
         "schema" : {
@@ -147,12 +150,15 @@
           } ]
         }
       }, {
-        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
-        "label" : "OrchestrationSource_0"
+        "id" : "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj",
+        "label" : "OrchestrationSource_1"
       } ],
       "sources" : [ {
         "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
         "label" : "OrchestrationSource_0"
+      }, {
+        "id" : "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj",
+        "label" : "OrchestrationSource_1"
       } ]
     }
   },

@@ -1,7 +1,7 @@
 {{
   config({    
     "materialized": "table",
-    "alias": "prophecy__temp_ghvjbknlm_post_Aggregate_2",
+    "alias": "prophecy__temp_ghvjbknlm_post_Aggregate_2_0",
     "database": "database",
     "schema": "default"
   })

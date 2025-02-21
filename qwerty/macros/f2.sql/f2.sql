@@ -1,6 +1,5 @@
 {% macro f2() %}
-bhjhjbhjhjbhjbhjbbbhbhhj arun
-
+this is a function
 {% endmacro %}
 
  

@@ -1,7 +1,7 @@
 {{
   config({    
     "materialized": "table",
-    "alias": "prophecy__temp_ghvjbknlm_post_Union_1",
+    "alias": "prophecy__temp_ghvjbknlm_post_Union_1_0",
     "database": "database",
     "schema": "default"
   })
