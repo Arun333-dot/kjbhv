@@ -34,9 +34,17 @@ sources:
   tables: []
 - name: "hive_metastore.asadas"
   database: "hive_metastore"
-  schema: "asadas"
+  schema: "anewera"
   tables:
   - name: "test5672"
+    columns:
+    - name: "name"
+      dataType:
+        type: "String"
+    - name: "age"
+      dataType:
+        type: "String"
+  - name: "newera"
     columns:
     - name: "country_code"
       dataType:

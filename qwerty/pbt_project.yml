@@ -263,6 +263,20 @@ sqlSources:
         entityType: ''
         providerType: databricks
         fields:
+        - name: name
+          dataType:
+            type: String
+        - name: age
+          dataType:
+            type: String
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 06:52:38'
+    - name: newera
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
         - name: country_code
           dataType:
             type: String
@@ -274,7 +288,7 @@ sqlSources:
             type: String
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 06:52:38'
+      createdAt: '2025-02-21 06:58:20'
   .prophecy/metadata/sqlsources/hive_metastore_bad_schema:
     name: hive_metastore.bad_schema
     description: null
