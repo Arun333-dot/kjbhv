@@ -438,36 +438,11 @@ sqlSources:
     - models/jhbkn/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
-    - name: prophecy__temp_jhbkn_post_Filter_1
+    - name: prophecy__temp_fgyhuj_post_Aggregate_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:56:05'
-    - name: prophecy__temp_jhbkn_post_SQLStatement_1
-      schema: null
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:56:05'
-    - name: prophecy__temp_jhbkn_post_Macro_1
-      schema: null
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:56:05'
-    - name: prophecy__temp_jhbkn_post_Reformat_1
-      schema: null
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:56:05'
-    - name: prophecy__temp_jhbkn_post_WindowFunction_1
-      schema: null
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:56:05'
-    - name: prophecy__temp_jhbkn_post_Union_1
-      schema: null
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:56:05'
+      createdAt: '2025-02-21 08:48:38'
   .prophecy/metadata/sqlsources/hive_metastore_aditya:
     name: hive_metastore.aditya
     description: null
