@@ -38,22 +38,7 @@ sqlModels:
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-19 19:05:43'
-  .prophecy/metadata/sqlmodels/7:
-    name: '7'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/7.sql
-    - .prophecy/ide/models/7.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:19:04'
+    createdAt: '2025-02-21 06:26:07'
   .prophecy/metadata/sqlmodels/3:
     name: '3'
     schema: null
@@ -69,21 +54,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:17:35'
-  .prophecy/metadata/sqlmodels/8:
-    name: '8'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/8.sql
-    - .prophecy/ide/models/8.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 06:19:13'
   .prophecy/metadata/sqlmodels/bhjnk:
     name: bhjnk
     schema: null
@@ -113,7 +83,7 @@ sqlModels:
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-21 06:17:43'
+    createdAt: '2025-02-21 06:26:15'
   .prophecy/metadata/sqlmodels/2:
     name: '2'
     schema: null
@@ -182,7 +152,7 @@ sqlModels:
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-21 06:17:52'
+    createdAt: '2025-02-21 06:26:31'
   .prophecy/metadata/sqlmodels/iujoijoijio:
     name: iujoijoijio
     schema:
