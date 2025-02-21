@@ -1,0 +1,48 @@
+{
+  "id" : "df",
+  "metainfo" : {
+    "label" : "df",
+    "autoLayout" : false,
+    "staleState" : "file",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "df##pGVnE80k" : {
+      "id" : "df##pGVnE80k",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "df",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "XzUE4eKu",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "mN56DRIG",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}

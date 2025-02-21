@@ -161,3 +161,36 @@ sources:
         - name: "pin"
           dataType:
             type: "Bigint"
+- name: "hive_metastore.chirag"
+  database: "hive_metastore"
+  schema: "chirag"
+  tables:
+  - name: "orders"
+    columns:
+    - name: "ORDER_ID"
+      dataType:
+        type: "Bigint"
+    - name: "CUSTOMER_ID"
+      dataType:
+        type: "Bigint"
+    - name: "ORDER_DATE"
+      dataType:
+        type: "Date"
+    - name: "STATUS"
+      dataType:
+        type: "String"
+    - name: "CREDIT_CARD_AMOUNT"
+      dataType:
+        type: "Bigint"
+    - name: "COUPON_AMOUNT"
+      dataType:
+        type: "Bigint"
+    - name: "BANK_TRANSFER_AMOUNT"
+      dataType:
+        type: "Bigint"
+    - name: "GIFT_CARD_AMOUNT"
+      dataType:
+        type: "Bigint"
+    - name: "AMOUNT"
+      dataType:
+        type: "Bigint"
