@@ -176,6 +176,19 @@
       },
       "preview" : [ ],
       "sources" : [ ]
+    },
+    "klmlkmklmkmklm" : {
+      "id" : "klmlkmklmkmklm",
+      "name" : "klmlkmklmkmklm",
+      "path" : "qwerty/.prophecy/ide/pipelines/klmlkmklmkmklm.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
     }
   },
   "externalSources" : {
