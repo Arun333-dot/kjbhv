@@ -376,6 +376,44 @@ sqlSources:
         entityType: ''
         providerType: databricks
         fields:
+        - name: Year
+          dataType:
+            type: String
+        - name: Industry_aggregation_NZSIOC
+          dataType:
+            type: String
+        - name: Industry_code_NZSIOC
+          dataType:
+            type: String
+        - name: Industry_name_NZSIOC
+          dataType:
+            type: String
+        - name: Units
+          dataType:
+            type: String
+        - name: Variable_code
+          dataType:
+            type: String
+        - name: Variable_name
+          dataType:
+            type: String
+        - name: Variable_category
+          dataType:
+            type: String
+        - name: Value
+          dataType:
+            type: String
+        - name: Industry_code_ANZSIC06
+          dataType:
+            type: String
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 06:51:16'
+    - name: test_table
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
         - name: customer
           dataType:
             type: Struct
@@ -395,7 +433,7 @@ sqlSources:
                 type: Bigint
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 06:51:16'
+      createdAt: '2025-02-21 06:55:04'
   .prophecy/metadata/sqlsources/hive_metastore_default_qa_schema:
     name: hive_metastore.default_qa_schema
     description: null
