@@ -83,31 +83,7 @@ sqlModels:
     createdAt: '2025-02-19 18:55:01'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
+    schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -181,19 +157,7 @@ sqlSeeds:
     author: arunsharma@prophecy.io
     files:
     - seeds/hjhbhjbhj.csv
-    - seeds/seeds.yml
     createdAt: '2025-02-21 06:37:17'
-  .prophecy/metadata/sqlseeds/jnknk:
-    name: jnknk
-    schema:
-      entityType: ''
-      providerType: databricks
-      fields: []
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - seeds/jnknk.csv
-    createdAt: '2025-02-20 18:40:54'
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
     schema:
@@ -205,17 +169,6 @@ sqlSeeds:
     files:
     - seeds/ghnj.csv
     createdAt: '2025-02-20 18:49:27'
-  .prophecy/metadata/sqlseeds/hhjghjhj:
-    name: hhjghjhj
-    schema:
-      entityType: ''
-      providerType: databricks
-      fields: []
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - seeds/hhjghjhj.csv
-    createdAt: '2025-02-20 18:31:42'
   .prophecy/metadata/sqlseeds/ghbjnk:
     name: ghbjnk
     schema:
@@ -238,6 +191,18 @@ sqlSeeds:
     files:
     - seeds/seed1.csv
     createdAt: '2025-02-20 18:53:49'
+  .prophecy/metadata/sqlseeds/jbhbhjbhj:
+    name: jbhbhjbhj
+    schema:
+      entityType: ''
+      providerType: databricks
+      fields: []
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - seeds/jbhbhjbhj.csv
+    - seeds/seeds.yml
+    createdAt: '2025-02-21 06:40:09'
 sqlSources:
   .prophecy/metadata/sqlsources/hive_metastore_arun123:
     name: hive_metastore.arun123
@@ -247,36 +212,6 @@ sqlSources:
     - prophecy-sources/sources.yml
     createdAt: '2025-02-19 18:29:42'
     tables:
-    - name: model
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: customer_id
-          dataType:
-            type: Bigint
-        - name: first_name
-          dataType:
-            type: String
-        - name: last_name
-          dataType:
-            type: String
-        - name: first_order
-          dataType:
-            type: Date
-        - name: most_recent_order
-          dataType:
-            type: Date
-        - name: number_of_orders
-          dataType:
-            type: Bigint
-        - name: customer_lifetime_value
-          dataType:
-            type: Double
-      description: Customer data including names, order history, and lifetime value
-        for customer relationship management purposes.
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-19 18:29:42'
     - name: sqlmodel
       schema:
         entityType: ''
@@ -310,35 +245,6 @@ sqlSources:
         account flags, and account opening dates.
       author: arunsharma@prophecy.io
       createdAt: '2025-02-19 18:55:07'
-    - name: model1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: customer_id
-          dataType:
-            type: Bigint
-        - name: first_name
-          dataType:
-            type: String
-        - name: last_name
-          dataType:
-            type: String
-        - name: first_order
-          dataType:
-            type: Date
-        - name: most_recent_order
-          dataType:
-            type: Date
-        - name: number_of_orders
-          dataType:
-            type: Bigint
-        - name: customer_lifetime_value
-          dataType:
-            type: Double
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-20 18:29:37'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
