@@ -376,30 +376,6 @@ sqlSources:
       createdAt: '2025-02-20 19:35:46'
 sqlUnreferencedSources: {}
 sqlOrchestratorPipelines:
-  .prophecy/metadata/sqlorchestratorpipeline/1:
-    name: '1'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/1.json
-    createdAt: '2025-02-21 06:31:05'
-  .prophecy/metadata/sqlorchestratorpipeline/3:
-    name: '3'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/3.json
-    createdAt: '2025-02-21 06:31:18'
-  .prophecy/metadata/sqlorchestratorpipeline/4:
-    name: '4'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/4.json
-    createdAt: '2025-02-21 06:31:26'
   .prophecy/metadata/sqlorchestratorpipeline/ghvjbknlm:
     name: ghvjbknlm
     schema: null
@@ -416,14 +392,6 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/5.json
     createdAt: '2025-02-21 06:31:34'
-  .prophecy/metadata/sqlorchestratorpipeline/2:
-    name: '2'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/2.json
-    createdAt: '2025-02-21 06:31:12'
 sqlPipeline:
   name: sqlPipeline
   description: null
