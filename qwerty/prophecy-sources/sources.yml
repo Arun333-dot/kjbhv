@@ -51,6 +51,29 @@ sources:
     - name: "customer_lifetime_value"
       dataType:
         type: "Double"
+  - name: "model1"
+    columns:
+    - name: "customer_id"
+      dataType:
+        type: "Bigint"
+    - name: "first_name"
+      dataType:
+        type: "String"
+    - name: "last_name"
+      dataType:
+        type: "String"
+    - name: "first_order"
+      dataType:
+        type: "Date"
+    - name: "most_recent_order"
+      dataType:
+        type: "Date"
+    - name: "number_of_orders"
+      dataType:
+        type: "Bigint"
+    - name: "customer_lifetime_value"
+      dataType:
+        type: "Double"
 - name: "hive_metastore.bad_schema"
   database: "hive_metastore"
   schema: "bad_schema"

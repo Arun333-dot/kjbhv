@@ -24,6 +24,21 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
+  .prophecy/metadata/sqlmodels/bhj:
+    name: bhj
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/bhj.sql
+    - .prophecy/ide/models/bhj.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-21 08:03:59'
   .prophecy/metadata/sqlmodels/bhjnk:
     name: bhjnk
     schema: null
@@ -129,6 +144,24 @@ sqlTests:
     testType: GenericDataTest
     createdAt: '2025-02-19 21:00:03'
 sqlMacros:
+  .prophecy/metadata/sqlmacros/bhjnk:
+    name: bhjnk
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/bhjnk.sql/bhjnk.sql
+    - .prophecy/ide/macros/bhjnk.json
+    createdAt: '2025-02-21 08:04:38'
+  .prophecy/metadata/sqlmacros/hj:
+    name: hj
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/hj.sql/hj.sql
+    - .prophecy/ide/macros/hj.json
+    createdAt: '2025-02-21 08:04:57'
   .prophecy/metadata/sqlmacros/function:
     name: function
     macroType: expression
@@ -156,6 +189,17 @@ sqlMacros:
     - macros/f6.sql/f6.sql
     - .prophecy/ide/macros/f6.json
     createdAt: '2025-02-21 07:18:02'
+  .prophecy/metadata/sqlmacros/jkn:
+    name: jkn
+    macroType: query
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/jkn.sql
+    - .prophecy/ide/macros/jkn.json
+    - macros/macros_001.yml
+    - gems/jkn.py
+    createdAt: '2025-02-21 08:05:03'
   .prophecy/metadata/sqlmacros/f5:
     name: f5
     macroType: expression
@@ -283,6 +327,35 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 07:08:08'
+    - name: model1
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: customer_id
+          dataType:
+            type: Bigint
+        - name: first_name
+          dataType:
+            type: String
+        - name: last_name
+          dataType:
+            type: String
+        - name: first_order
+          dataType:
+            type: Date
+        - name: most_recent_order
+          dataType:
+            type: Date
+        - name: number_of_orders
+          dataType:
+            type: Bigint
+        - name: customer_lifetime_value
+          dataType:
+            type: Double
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 08:04:31'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
