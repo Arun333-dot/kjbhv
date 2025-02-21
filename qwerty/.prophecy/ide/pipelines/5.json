@@ -20,21 +20,21 @@
     }
   },
   "processes" : {
-    "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj" : {
-      "id" : "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj",
+    "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv" : {
+      "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
       "component" : "OrchestrationSource",
-      "kind" : "S3Source",
+      "kind" : "SFTPSource",
       "metadata" : {
-        "label" : "OrchestrationSource_1",
-        "x" : -680,
-        "y" : -400,
+        "label" : "OrchestrationSource_0",
+        "x" : 140,
+        "y" : -180,
         "phase" : 0
       },
       "properties" : {
         "connector" : {
-          "kind" : "s3",
-          "properties" : { },
-          "type" : "connector"
+          "kind" : "sftp",
+          "type" : "connector",
+          "properties" : { }
         },
         "properties" : { },
         "format" : {
@@ -46,7 +46,7 @@
       "ports" : {
         "inputs" : [ ],
         "outputs" : [ {
-          "id" : "arVEscEW3BHupS9_sDxsA$$gZkEZkiQVpzbumYIft4YF",
+          "id" : "9cFfvZhyY1u0blz8XE-W7$$_yudE9qbd9gLIDqb3yVFw",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false
@@ -96,21 +96,21 @@
         "isCustomOutputSchema" : false
       }
     },
-    "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv" : {
-      "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+    "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj" : {
+      "id" : "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj",
       "component" : "OrchestrationSource",
-      "kind" : "SFTPSource",
+      "kind" : "S3Source",
       "metadata" : {
-        "label" : "OrchestrationSource_0",
-        "x" : 140,
-        "y" : -180,
+        "label" : "OrchestrationSource_1",
+        "x" : -680,
+        "y" : -400,
         "phase" : 0
       },
       "properties" : {
         "connector" : {
-          "kind" : "sftp",
-          "type" : "connector",
-          "properties" : { }
+          "kind" : "s3",
+          "properties" : { },
+          "type" : "connector"
         },
         "properties" : { },
         "format" : {
@@ -122,7 +122,7 @@
       "ports" : {
         "inputs" : [ ],
         "outputs" : [ {
-          "id" : "9cFfvZhyY1u0blz8XE-W7$$_yudE9qbd9gLIDqb3yVFw",
+          "id" : "arVEscEW3BHupS9_sDxsA$$gZkEZkiQVpzbumYIft4YF",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false
