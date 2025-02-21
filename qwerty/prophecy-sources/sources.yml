@@ -200,6 +200,14 @@ sources:
   tables:
   - name: "test"
     columns:
+    - name: "id"
+      dataType:
+        type: "Bigint"
+    - name: "value"
+      dataType:
+        type: "Bigint"
+  - name: "raw_data"
+    columns:
     - name: "Check"
       dataType:
         type: "Integer"

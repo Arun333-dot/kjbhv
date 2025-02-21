@@ -481,6 +481,20 @@ sqlSources:
         entityType: ''
         providerType: databricks
         fields:
+        - name: id
+          dataType:
+            type: Bigint
+        - name: value
+          dataType:
+            type: Bigint
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 08:12:10'
+    - name: raw_data
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
         - name: Check
           dataType:
             type: Integer
@@ -489,7 +503,7 @@ sqlSources:
             type: Integer
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:12:10'
+      createdAt: '2025-02-21 08:12:48'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null
