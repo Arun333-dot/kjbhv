@@ -9,12 +9,10 @@
 
 WITH SQLStatement_1 AS (
 
-  jknjjnjknjkjknjknjnkjknjknkj
+  jknjjnjnkkmljnkl this is updated
 
 )
 
-
-// here the merge has failed , but still we didnt see any error message
 SELECT *
 
 FROM SQLStatement_1
