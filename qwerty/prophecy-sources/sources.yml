@@ -34,7 +34,7 @@ sources:
   tables: []
 - name: "hive_metastore.asadas"
   database: "hive_metastore"
-  schema: "anewera"
+  schema: "arun123"
   tables:
   - name: "test5672"
     columns:
@@ -45,6 +45,29 @@ sources:
       dataType:
         type: "String"
   - name: "newera"
+    columns:
+    - name: "customer_id"
+      dataType:
+        type: "Bigint"
+    - name: "first_name"
+      dataType:
+        type: "String"
+    - name: "last_name"
+      dataType:
+        type: "String"
+    - name: "first_order"
+      dataType:
+        type: "Date"
+    - name: "most_recent_order"
+      dataType:
+        type: "Date"
+    - name: "number_of_orders"
+      dataType:
+        type: "Bigint"
+    - name: "customer_lifetime_value"
+      dataType:
+        type: "Double"
+  - name: "model"
     columns:
     - name: "country_code"
       dataType:
