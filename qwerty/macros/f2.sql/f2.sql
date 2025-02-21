@@ -1,5 +1,5 @@
 {% macro f2() %}
-jknjknjknjkjnjknjnkhjbbhjbhjbjhbhjbjhbhvuyjiuhgijopijhjj
+bhjhjbhjhjbhjbhjbbbhbhhj
 
 {% endmacro %}
 
