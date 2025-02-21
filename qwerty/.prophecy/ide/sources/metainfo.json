@@ -129,9 +129,6 @@
         }
       },
       "preview" : [ {
-        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
-        "label" : "OrchestrationSource_0"
-      }, {
         "id" : "bybIlqNtr0SSQ58RQ9xmr",
         "label" : "test5672",
         "schema" : {
@@ -149,6 +146,9 @@
             }
           } ]
         }
+      }, {
+        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+        "label" : "OrchestrationSource_0"
       } ],
       "sources" : [ {
         "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",

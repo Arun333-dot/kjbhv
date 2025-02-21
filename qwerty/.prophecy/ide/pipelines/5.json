@@ -20,6 +20,38 @@
     }
   },
   "processes" : {
+    "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv" : {
+      "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
+      "component" : "OrchestrationSource",
+      "kind" : "SFTPSource",
+      "metadata" : {
+        "label" : "OrchestrationSource_0",
+        "x" : 140,
+        "y" : -180,
+        "phase" : 0
+      },
+      "properties" : {
+        "connector" : {
+          "kind" : "sftp",
+          "type" : "connector",
+          "properties" : { }
+        },
+        "properties" : { },
+        "format" : {
+          "kind" : "csv",
+          "category" : "File",
+          "properties" : { }
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "9cFfvZhyY1u0blz8XE-W7$$_yudE9qbd9gLIDqb3yVFw",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    },
     "bybIlqNtr0SSQ58RQ9xmr" : {
       "id" : "bybIlqNtr0SSQ58RQ9xmr",
       "component" : "Dataset",
@@ -59,38 +91,6 @@
               }
             } ]
           },
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false
-      }
-    },
-    "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv" : {
-      "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
-      "component" : "OrchestrationSource",
-      "kind" : "SFTPSource",
-      "metadata" : {
-        "label" : "OrchestrationSource_0",
-        "x" : 140,
-        "y" : -180,
-        "phase" : 0
-      },
-      "properties" : {
-        "connector" : {
-          "kind" : "sftp",
-          "type" : "connector",
-          "properties" : { }
-        },
-        "properties" : { },
-        "format" : {
-          "kind" : "csv",
-          "category" : "File",
-          "properties" : { }
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "9cFfvZhyY1u0blz8XE-W7$$_yudE9qbd9gLIDqb3yVFw",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false

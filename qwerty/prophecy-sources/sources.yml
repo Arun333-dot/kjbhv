@@ -57,7 +57,7 @@ sources:
   tables: []
 - name: "hive_metastore.asadas"
   database: "hive_metastore"
-  schema: "arun123"
+  schema: "aditya"
   tables:
   - name: "test5672"
     columns:
