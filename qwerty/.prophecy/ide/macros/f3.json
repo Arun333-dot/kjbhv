@@ -1,6 +1,6 @@
 {
-  "function" : {
-    "name" : "function",
+  "f3" : {
+    "name" : "f3",
     "macroType" : "expression",
     "definition" : "",
     "parameters" : {

@@ -1,3 +1,6 @@
 ---
 version: 2
-macros: []
+macros:
+- name: "f2"
+  arguments: []
+  macroType: "expression"

@@ -24,21 +24,6 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/df:
-    name: df
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/df.sql
-    - .prophecy/ide/models/df.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 08:07:39'
   .prophecy/metadata/sqlmodels/bhjnk:
     name: bhjnk
     schema: null
@@ -54,21 +39,45 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:14:29'
-  .prophecy/metadata/sqlmodels/cd:
-    name: cd
-    schema: null
+  .prophecy/metadata/sqlmodels/iujoijoijio:
+    name: iujoijoijio
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/cd.sql
-    - .prophecy/ide/models/cd.json
+    - models/iujoijoijio.sql
+    - .prophecy/ide/models/iujoijoijio.json
     sqlDependencies:
       models: []
       datasets: []
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-21 08:07:48'
+    createdAt: '2025-02-19 18:55:01'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
@@ -109,60 +118,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 17:57:24'
-  .prophecy/metadata/sqlmodels/iujoijoijio:
-    name: iujoijoijio
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/iujoijoijio.sql
-    - .prophecy/ide/models/iujoijoijio.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 18:55:01'
-  .prophecy/metadata/sqlmodels/bhj:
-    name: bhj
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/bhj.sql
-    - .prophecy/ide/models/bhj.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 08:03:59'
 sqlSnapshots: {}
 sqlTests:
   .prophecy/metadata/sqltests/hnvgcbfxvd:
@@ -174,71 +129,15 @@ sqlTests:
     testType: GenericDataTest
     createdAt: '2025-02-19 21:00:03'
 sqlMacros:
-  .prophecy/metadata/sqlmacros/bhjnk:
-    name: bhjnk
+  .prophecy/metadata/sqlmacros/f3:
+    name: f3
     macroType: expression
     description: null
     author: arunsharma@prophecy.io
     files:
-    - macros/bhjnk.sql/bhjnk.sql
-    - .prophecy/ide/macros/bhjnk.json
-    createdAt: '2025-02-21 08:04:38'
-  .prophecy/metadata/sqlmacros/hj:
-    name: hj
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/hj.sql/hj.sql
-    - .prophecy/ide/macros/hj.json
-    createdAt: '2025-02-21 08:04:57'
-  .prophecy/metadata/sqlmacros/function:
-    name: function
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/function.sql/function.sql
-    - .prophecy/ide/macros/function.json
-    createdAt: '2025-02-21 07:19:52'
-  .prophecy/metadata/sqlmacros/hjknkml:
-    name: hjknkml
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/hjknkml.sql/hjknkml.sql
-    - .prophecy/ide/macros/hjknkml.json
-    createdAt: '2025-02-19 21:01:11'
-  .prophecy/metadata/sqlmacros/f6:
-    name: f6
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/f6.sql/f6.sql
-    - .prophecy/ide/macros/f6.json
-    createdAt: '2025-02-21 07:18:02'
-  .prophecy/metadata/sqlmacros/jkn:
-    name: jkn
-    macroType: query
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/jkn.sql
-    - .prophecy/ide/macros/jkn.json
-    - macros/macros_001.yml
-    - gems/jkn.py
-    createdAt: '2025-02-21 08:05:03'
-  .prophecy/metadata/sqlmacros/f5:
-    name: f5
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/f5.sql/f5.sql
-    - .prophecy/ide/macros/f5.json
-    createdAt: '2025-02-21 07:17:57'
+    - macros/f3.sql/f3.sql
+    - .prophecy/ide/macros/f3.json
+    createdAt: '2025-02-21 07:07:28'
   .prophecy/metadata/sqlmacros/generate_schema_name:
     name: generate_schema_name
     macroType: expression
@@ -259,15 +158,6 @@ sqlMacros:
     - macros/macros.yml
     - gems/jknl.py
     createdAt: '2025-02-19 20:58:04'
-  .prophecy/metadata/sqlmacros/f4:
-    name: f4
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/f4.sql/f4.sql
-    - .prophecy/ide/macros/f4.json
-    createdAt: '2025-02-21 07:17:52'
   .prophecy/metadata/sqlmacros/functin677:
     name: functin677
     macroType: expression
@@ -278,6 +168,25 @@ sqlMacros:
     - .prophecy/ide/macros/functin677.json
     - macros/functin677.sql/functin677.sql.yml
     createdAt: '2025-02-20 19:26:07'
+  .prophecy/metadata/sqlmacros/hjknkml:
+    name: hjknkml
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/hjknkml.sql/hjknkml.sql
+    - .prophecy/ide/macros/hjknkml.json
+    createdAt: '2025-02-19 21:01:11'
+  .prophecy/metadata/sqlmacros/f2:
+    name: f2
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/f2.sql/f2.sql
+    - .prophecy/ide/macros/f2.json
+    - macros/f2.sql/f2.sql.yml
+    createdAt: '2025-02-21 07:07:23'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
@@ -357,35 +266,6 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 07:08:08'
-    - name: model1
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: customer_id
-          dataType:
-            type: Bigint
-        - name: first_name
-          dataType:
-            type: String
-        - name: last_name
-          dataType:
-            type: String
-        - name: first_order
-          dataType:
-            type: Date
-        - name: most_recent_order
-          dataType:
-            type: Date
-        - name: number_of_orders
-          dataType:
-            type: Bigint
-        - name: customer_lifetime_value
-          dataType:
-            type: Double
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:04:31'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
@@ -434,51 +314,15 @@ sqlSources:
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/fgyhuj/schema.yml
     - models/jhbkn/schema.yml
+    - models/fgyhuj/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
     - name: prophecy__temp_fgyhuj_post_Aggregate_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:48:38'
-  .prophecy/metadata/sqlsources/hive_metastore_aditya:
-    name: hive_metastore.aditya
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - prophecy-sources/sources.yml
-    createdAt: '2025-02-21 08:12:10'
-    tables:
-    - name: test
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: id
-          dataType:
-            type: Bigint
-        - name: value
-          dataType:
-            type: Bigint
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:12:10'
-    - name: raw_data
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: Check
-          dataType:
-            type: Integer
-        - name: SELECT
-          dataType:
-            type: Integer
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:12:48'
+      createdAt: '2025-02-20 19:35:46'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null
@@ -530,49 +374,6 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:58:20'
-  .prophecy/metadata/sqlsources/hive_metastore_chirag:
-    name: hive_metastore.chirag
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - prophecy-sources/sources.yml
-    createdAt: '2025-02-21 08:08:10'
-    tables:
-    - name: orders
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: ORDER_ID
-          dataType:
-            type: Bigint
-        - name: CUSTOMER_ID
-          dataType:
-            type: Bigint
-        - name: ORDER_DATE
-          dataType:
-            type: Date
-        - name: STATUS
-          dataType:
-            type: String
-        - name: CREDIT_CARD_AMOUNT
-          dataType:
-            type: Bigint
-        - name: COUPON_AMOUNT
-          dataType:
-            type: Bigint
-        - name: BANK_TRANSFER_AMOUNT
-          dataType:
-            type: Bigint
-        - name: GIFT_CARD_AMOUNT
-          dataType:
-            type: Bigint
-        - name: AMOUNT
-          dataType:
-            type: Bigint
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:08:10'
   .prophecy/metadata/sqlsources/hive_metastore_bad_schema:
     name: hive_metastore.bad_schema
     description: null
@@ -641,62 +442,6 @@ sqlSources:
       createdAt: '2025-02-21 06:53:30'
 sqlUnreferencedSources: {}
 sqlOrchestratorPipelines:
-  .prophecy/metadata/sqlorchestratorpipeline/6:
-    name: '6'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/6.json
-    createdAt: '2025-02-21 08:02:59'
-  .prophecy/metadata/sqlorchestratorpipeline/9:
-    name: '9'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/9.json
-    createdAt: '2025-02-21 08:03:19'
-  .prophecy/metadata/sqlorchestratorpipeline/1:
-    name: '1'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/1.json
-    createdAt: '2025-02-21 08:02:32'
-  .prophecy/metadata/sqlorchestratorpipeline/3:
-    name: '3'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/3.json
-    createdAt: '2025-02-21 08:02:45'
-  .prophecy/metadata/sqlorchestratorpipeline/7:
-    name: '7'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/7.json
-    createdAt: '2025-02-21 08:03:05'
-  .prophecy/metadata/sqlorchestratorpipeline/4:
-    name: '4'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/4.json
-    createdAt: '2025-02-21 08:02:52'
-  .prophecy/metadata/sqlorchestratorpipeline/nkj:
-    name: nkj
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/nkj.json
-    createdAt: '2025-02-21 08:07:25'
   .prophecy/metadata/sqlorchestratorpipeline/ghvjbknlm:
     name: ghvjbknlm
     schema: null
@@ -705,14 +450,6 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/ghvjbknlm.json
     createdAt: '2025-02-20 11:35:59'
-  .prophecy/metadata/sqlorchestratorpipeline/8:
-    name: '8'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/8.json
-    createdAt: '2025-02-21 08:03:11'
   .prophecy/metadata/sqlorchestratorpipeline/5:
     name: '5'
     schema: null
@@ -721,22 +458,6 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/5.json
     createdAt: '2025-02-21 06:31:34'
-  .prophecy/metadata/sqlorchestratorpipeline/bjhnk:
-    name: bjhnk
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/bjhnk.json
-    createdAt: '2025-02-21 08:01:39'
-  .prophecy/metadata/sqlorchestratorpipeline/2:
-    name: '2'
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/2.json
-    createdAt: '2025-02-21 08:02:38'
 sqlPipeline:
   name: sqlPipeline
   description: null
