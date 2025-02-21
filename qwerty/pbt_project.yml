@@ -1,6 +1,6 @@
 name: qwerty
 description: kjnkjnjklkm
-version: '17'
+version: '16'
 author: arunsharma@prophecy.io
 language: sql
 buildSystem: ''
@@ -24,21 +24,21 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/df:
-    name: df
+  .prophecy/metadata/sqlmodels/bhj:
+    name: bhj
     schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/df.sql
-    - .prophecy/ide/models/df.json
+    - models/bhj.sql
+    - .prophecy/ide/models/bhj.json
     sqlDependencies:
       models: []
       datasets: []
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-21 08:07:39'
+    createdAt: '2025-02-21 08:03:59'
   .prophecy/metadata/sqlmodels/bhjnk:
     name: bhjnk
     schema: null
@@ -54,21 +54,45 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-21 06:14:29'
-  .prophecy/metadata/sqlmodels/cd:
-    name: cd
-    schema: null
+  .prophecy/metadata/sqlmodels/iujoijoijio:
+    name: iujoijoijio
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: customer_id
+        dataType:
+          type: Bigint
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Bigint
+      - name: customer_lifetime_value
+        dataType:
+          type: Double
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/cd.sql
-    - .prophecy/ide/models/cd.json
+    - models/iujoijoijio.sql
+    - .prophecy/ide/models/iujoijoijio.json
     sqlDependencies:
       models: []
       datasets: []
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2025-02-21 08:07:48'
+    createdAt: '2025-02-19 18:55:01'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
@@ -109,60 +133,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 17:57:24'
-  .prophecy/metadata/sqlmodels/iujoijoijio:
-    name: iujoijoijio
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/iujoijoijio.sql
-    - .prophecy/ide/models/iujoijoijio.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-19 18:55:01'
-  .prophecy/metadata/sqlmodels/bhj:
-    name: bhj
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - models/bhj.sql
-    - .prophecy/ide/models/bhj.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-21 08:03:59'
 sqlSnapshots: {}
 sqlTests:
   .prophecy/metadata/sqltests/hnvgcbfxvd:
@@ -468,42 +438,6 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 07:56:05'
-  .prophecy/metadata/sqlsources/hive_metastore_aditya:
-    name: hive_metastore.aditya
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - prophecy-sources/sources.yml
-    createdAt: '2025-02-21 08:12:10'
-    tables:
-    - name: test
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: id
-          dataType:
-            type: Bigint
-        - name: value
-          dataType:
-            type: Bigint
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:12:10'
-    - name: raw_data
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: Check
-          dataType:
-            type: Integer
-        - name: SELECT
-          dataType:
-            type: Integer
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:12:48'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null
@@ -555,49 +489,6 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:58:20'
-  .prophecy/metadata/sqlsources/hive_metastore_chirag:
-    name: hive_metastore.chirag
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - prophecy-sources/sources.yml
-    createdAt: '2025-02-21 08:08:10'
-    tables:
-    - name: orders
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: ORDER_ID
-          dataType:
-            type: Bigint
-        - name: CUSTOMER_ID
-          dataType:
-            type: Bigint
-        - name: ORDER_DATE
-          dataType:
-            type: Date
-        - name: STATUS
-          dataType:
-            type: String
-        - name: CREDIT_CARD_AMOUNT
-          dataType:
-            type: Bigint
-        - name: COUPON_AMOUNT
-          dataType:
-            type: Bigint
-        - name: BANK_TRANSFER_AMOUNT
-          dataType:
-            type: Bigint
-        - name: GIFT_CARD_AMOUNT
-          dataType:
-            type: Bigint
-        - name: AMOUNT
-          dataType:
-            type: Bigint
-      description: null
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 08:08:10'
   .prophecy/metadata/sqlsources/hive_metastore_bad_schema:
     name: hive_metastore.bad_schema
     description: null
@@ -714,14 +605,6 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/4.json
     createdAt: '2025-02-21 08:02:52'
-  .prophecy/metadata/sqlorchestratorpipeline/nkj:
-    name: nkj
-    schema: null
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - pipelines/nkj.json
-    createdAt: '2025-02-21 08:07:25'
   .prophecy/metadata/sqlorchestratorpipeline/ghvjbknlm:
     name: ghvjbknlm
     schema: null

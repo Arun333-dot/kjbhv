@@ -241,19 +241,6 @@
       "preview" : [ ],
       "sources" : [ ]
     },
-    "nkj" : {
-      "id" : "nkj",
-      "name" : "nkj",
-      "path" : "qwerty/.prophecy/ide/pipelines/nkj.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ ],
-      "sources" : [ ]
-    },
     "3" : {
       "id" : "3",
       "name" : "3",
