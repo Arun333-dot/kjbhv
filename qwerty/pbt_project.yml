@@ -277,6 +277,22 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 12:09:04'
+  .prophecy/metadata/sqlsources/prophecy__temp_5_source:
+    name: prophecy__temp_5_source
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/5/schema.yml
+    createdAt: '2025-02-21 12:13:41'
+    tables:
+    - name: prophecy__temp_5_post_SQLStatement_1_0
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields: []
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 12:13:41'
   .prophecy/metadata/sqlsources/hive_metastore_asadas:
     name: hive_metastore.asadas
     description: null

@@ -1,2 +1,16 @@
 ---
 version: 2
+models:
+- name: "model_5_SQLStatement_1"
+  tags:
+  - "prophecy_temp"
+sources:
+- name: "prophecy__temp_5_source"
+  database: "database"
+  schema: "default"
+  config:
+    enabled: true
+  tables:
+  - name: "prophecy__temp_5_post_SQLStatement_1_0"
+    tags:
+    - "prophecy_temp"
