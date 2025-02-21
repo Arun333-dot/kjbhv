@@ -81,15 +81,6 @@ sqlTests:
     testType: GenericDataTest
     createdAt: '2025-02-19 21:00:03'
 sqlMacros:
-  .prophecy/metadata/sqlmacros/f1:
-    name: f1
-    macroType: expression
-    description: null
-    author: arunsharma@prophecy.io
-    files:
-    - macros/f1.sql/f1.sql
-    - .prophecy/ide/macros/f1.json
-    createdAt: '2025-02-21 12:03:08'
   .prophecy/metadata/sqlmacros/f2:
     name: f2
     macroType: expression
