@@ -193,6 +193,35 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:49:33'
+    - name: model1
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: customer_id
+          dataType:
+            type: Bigint
+        - name: first_name
+          dataType:
+            type: String
+        - name: last_name
+          dataType:
+            type: String
+        - name: first_order
+          dataType:
+            type: Date
+        - name: most_recent_order
+          dataType:
+            type: Date
+        - name: number_of_orders
+          dataType:
+            type: Bigint
+        - name: customer_lifetime_value
+          dataType:
+            type: Double
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-21 06:50:23'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
