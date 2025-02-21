@@ -136,6 +136,19 @@
         "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
         "label" : "OrchestrationSource_0"
       } ]
+    },
+    "bjhnk" : {
+      "id" : "bjhnk",
+      "name" : "bjhnk",
+      "path" : "qwerty/.prophecy/ide/pipelines/bjhnk.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
     }
   },
   "externalSources" : {

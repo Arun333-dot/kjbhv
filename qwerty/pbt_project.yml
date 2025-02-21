@@ -500,6 +500,14 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/5.json
     createdAt: '2025-02-21 06:31:34'
+  .prophecy/metadata/sqlorchestratorpipeline/bjhnk:
+    name: bjhnk
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - pipelines/bjhnk.json
+    createdAt: '2025-02-21 08:01:39'
 sqlPipeline:
   name: sqlPipeline
   description: null
