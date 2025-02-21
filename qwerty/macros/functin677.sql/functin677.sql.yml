@@ -1,6 +1,0 @@
----
-version: 2
-macros:
-- name: "functin677"
-  arguments: []
-  macroType: "expression"
