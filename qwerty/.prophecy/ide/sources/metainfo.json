@@ -1042,6 +1042,7 @@
   },
   "dependenciesContainer" : {
     "dependencies" : { },
+    "lastError" : "Package Theano==1.0.5 not found in DBT Hub, please use a valid package name eg: 'dbt-labs/dbt_utils'",
     "prophecyProjectDependencies" : { }
   },
   "entitiesToSync" : [ {
