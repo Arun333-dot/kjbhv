@@ -25,6 +25,11 @@ macro-paths:
 - "macros"
 target-path: "target"
 
+# ==================
+# Variable Configs
+# ==================
+vars: {}
+
 # ============
 # Misc
 # ============

@@ -281,8 +281,8 @@ sqlSources:
     description: null
     author: arunsharma@prophecy.io
     files:
-    - models/fgyhuj/schema.yml
     - models/jhbkn/schema.yml
+    - models/fgyhuj/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
     - name: prophecy__temp_fgyhuj_post_Aggregate_1
@@ -417,6 +417,7 @@ sqlOrchestratorPipelines:
     files:
     - pipelines/klmlkmklmkmklm.json
     createdAt: '2025-02-21 12:19:05'
+sqlBusinessApps: {}
 sqlPipeline:
   name: sqlPipeline
   description: null
