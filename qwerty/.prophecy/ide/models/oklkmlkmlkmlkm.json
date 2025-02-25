@@ -7,6 +7,12 @@
     "sourceSuggestions" : {
       "sources" : [ ]
     },
+    "graphConfig" : {
+      "entityConfig" : {
+        "buckets" : "\"dfgh\"",
+        "type" : "ModelConfig"
+      }
+    },
     "version" : 3
   },
   "processes" : {
