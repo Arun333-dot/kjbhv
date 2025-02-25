@@ -7,7 +7,25 @@
       "type" : "record",
       "fields" : [ ]
     },
+    "description" : "",
     "staleState" : "none",
+    "propertiesFile" : {
+      "name" : "f2.sql",
+      "content" : "---\nversion: 2\nmacros:\n- name: \"f2\"\n  description: \"jkjjknkjnkjn\"\n  arguments: []\n  macroType: \"expression\"\n",
+      "path" : "qwerty/macros/f2.sql/f2.sql.yml",
+      "projectConfiguration" : null,
+      "folderConfiguration" : {
+        "version" : 2,
+        "macros" : [ {
+          "name" : "f2",
+          "description" : "jkjjknkjnkjn",
+          "arguments" : [ ],
+          "macroType" : "expression"
+        } ]
+      },
+      "packagesYml" : null,
+      "editable" : true
+    },
     "version" : 0
   }
 }
