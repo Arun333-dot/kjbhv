@@ -78,6 +78,21 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-19 18:55:01'
+  .prophecy/metadata/sqlmodels/oklkmlkmlkmlkm:
+    name: oklkmlkmlkmlkm
+    schema: null
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/oklkmlkmlkmlkm.sql
+    - .prophecy/ide/models/oklkmlkmlkmlkm.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-25 08:56:49'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
     schema:
