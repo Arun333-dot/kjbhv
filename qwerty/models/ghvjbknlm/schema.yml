@@ -19,9 +19,6 @@ models:
 - name: "model_ghvjbknlm_Filter_1"
   tags:
   - "prophecy_temp"
-- name: "model_ghvjbknlm_SQLStatement_1"
-  tags:
-  - "prophecy_temp"
 sources:
 - name: "prophecy__temp_ghvjbknlm_source"
   database: "database"
@@ -42,9 +39,6 @@ sources:
     tags:
     - "prophecy_temp"
   - name: "prophecy__temp_ghvjbknlm_post_Reformat_1_0"
-    tags:
-    - "prophecy_temp"
-  - name: "prophecy__temp_ghvjbknlm_post_SQLStatement_1_0"
     tags:
     - "prophecy_temp"
   - name: "prophecy__temp_ghvjbknlm_post_WindowFunction_1_0"

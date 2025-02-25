@@ -7,11 +7,17 @@
   })
 }}
 
-WITH FlattenSchema_1 AS (
+WITH SQLStatement_1 AS (
+
+  jknjjnjnkkmljnkl this is updated
+
+),
+
+FlattenSchema_1 AS (
 
   SELECT * 
   
-  FROM `` AS in0
+  FROM SQLStatement_1 AS in0
 
 ),
 

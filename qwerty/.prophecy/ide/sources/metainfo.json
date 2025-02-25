@@ -16,6 +16,32 @@
   },
   "datasets" : { },
   "pipelines" : {
+    "kklklmkklmklm" : {
+      "id" : "kklklmkklmklm",
+      "name" : "kklklmkklmklm",
+      "path" : "qwerty/.prophecy/ide/pipelines/kklklmkklmklm.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
+    "klmlkmklmkmklm" : {
+      "id" : "klmlkmklmkmklm",
+      "name" : "klmlkmklmkmklm",
+      "path" : "qwerty/.prophecy/ide/pipelines/klmlkmklmkmklm.json",
+      "config" : {
+        "schema" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      },
+      "preview" : [ ],
+      "sources" : [ ]
+    },
     "ghvjbknlm" : {
       "id" : "ghvjbknlm",
       "name" : "ghvjbknlm",
@@ -117,78 +143,6 @@
         "id" : "E-gHbZCZmB6rK7JtXRewt$$xoUEnoH7FyA4_kxGFVqU3",
         "label" : "OrchestrationSource_1"
       } ]
-    },
-    "5" : {
-      "id" : "5",
-      "name" : "5",
-      "path" : "qwerty/.prophecy/ide/pipelines/5.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ {
-        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
-        "label" : "OrchestrationSource_0"
-      }, {
-        "id" : "qGTgXvQNV3QhvgjAsYwrF$$Q8noJA-rchpGbZ1JyBXkg",
-        "label" : "SQLStatement_1"
-      }, {
-        "id" : "bybIlqNtr0SSQ58RQ9xmr",
-        "label" : "test5672",
-        "schema" : {
-          "entityType" : "",
-          "providerType" : "databricks",
-          "fields" : [ {
-            "name" : "name",
-            "dataType" : {
-              "type" : "String"
-            }
-          }, {
-            "name" : "age",
-            "dataType" : {
-              "type" : "String"
-            }
-          } ]
-        }
-      }, {
-        "id" : "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj",
-        "label" : "OrchestrationSource_1"
-      } ],
-      "sources" : [ {
-        "id" : "2LautpAsQkNqeDSkvlwS4$$b3NJ9v7OYDRZJijv_AAkv",
-        "label" : "OrchestrationSource_0"
-      }, {
-        "id" : "DtqBwkz0SC0af25A6DkSn$$X6ch0KF4eW0E6Y2kmQPXj",
-        "label" : "OrchestrationSource_1"
-      } ]
-    },
-    "kklklmkklmklm" : {
-      "id" : "kklklmkklmklm",
-      "name" : "kklklmkklmklm",
-      "path" : "qwerty/.prophecy/ide/pipelines/kklklmkklmklm.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ ],
-      "sources" : [ ]
-    },
-    "klmlkmklmkmklm" : {
-      "id" : "klmlkmklmkmklm",
-      "name" : "klmlkmklmkmklm",
-      "path" : "qwerty/.prophecy/ide/pipelines/klmlkmklmkmklm.json",
-      "config" : {
-        "schema" : {
-          "type" : "record",
-          "fields" : [ ]
-        }
-      },
-      "preview" : [ ],
-      "sources" : [ ]
     }
   },
   "externalSources" : {

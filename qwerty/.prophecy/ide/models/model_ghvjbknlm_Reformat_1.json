@@ -19,13 +19,40 @@
     "version" : 3
   },
   "processes" : {
+    "Wq5dGu6_SXTOobnNWM9O_$$P0xk1Z_kK5y81cx7MzRgx" : {
+      "id" : "Wq5dGu6_SXTOobnNWM9O_$$P0xk1Z_kK5y81cx7MzRgx",
+      "component" : "SQLStatement",
+      "metadata" : {
+        "label" : "SQLStatement_1",
+        "x" : 20,
+        "y" : 620,
+        "phase" : 0
+      },
+      "properties" : {
+        "fileTabs" : [ {
+          "path" : "out",
+          "id" : "out",
+          "language" : "sql",
+          "content" : "jknjjnjnkkmljnkl this is updated"
+        } ]
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "MQhzgLpegVRGWBtJyHNJg$$ku6knMxaINwq2HPsHQaKV",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
     "K6rRePzhAJxfY10CFmhx-$$TkL6BruR03SkQTGRKF2tL" : {
       "id" : "K6rRePzhAJxfY10CFmhx-$$TkL6BruR03SkQTGRKF2tL",
       "component" : "FlattenSchema",
       "metadata" : {
         "label" : "FlattenSchema_1",
-        "x" : 20,
-        "y" : 220,
+        "x" : 120,
+        "y" : 540,
         "phase" : 0
       },
       "properties" : {
@@ -51,7 +78,7 @@
       "component" : "Reformat",
       "metadata" : {
         "label" : "Reformat_1",
-        "x" : 620,
+        "x" : 420,
         "y" : 220,
         "phase" : 0
       },
@@ -135,8 +162,8 @@
       "component" : "OrderBy",
       "metadata" : {
         "label" : "OrderBy_1",
-        "x" : 420,
-        "y" : 220,
+        "x" : 320,
+        "y" : 540,
         "phase" : 0
       },
       "properties" : {
@@ -187,6 +214,12 @@
     "sourcePort" : "ul50Mp2TWJYKNy1zTHy43$$Eg2uvzhoT7geTcQ0Zse_0",
     "target" : "YCsqpOaaeIM22WDtvHi8x$$6z8pAwIFY0L8-R5cPfE_u",
     "targetPort" : "9VgNPRTWAOXsQtB0_ocWY$$Ranw4ljurRokBrsfEArEq"
+  }, {
+    "id" : "pR0u2r5gAL3weZIa4inPo$$o3-97qKvXrHDzU1PBcf2A",
+    "source" : "Wq5dGu6_SXTOobnNWM9O_$$P0xk1Z_kK5y81cx7MzRgx",
+    "sourcePort" : "MQhzgLpegVRGWBtJyHNJg$$ku6knMxaINwq2HPsHQaKV",
+    "target" : "K6rRePzhAJxfY10CFmhx-$$TkL6BruR03SkQTGRKF2tL",
+    "targetPort" : "BjFI9av8ubUOXnl4jG8vB$$VS4NIv_wKmBeLxNClmllz"
   } ],
   "component" : "Model"
 }
