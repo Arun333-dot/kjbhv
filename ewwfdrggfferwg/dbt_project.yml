@@ -1,0 +1,56 @@
+# ==================
+# Project Details
+# ==================
+name: "bigquery_exte_project"
+config-version: 2
+require-dbt-version:
+- ">=1.0.0"
+- "<2.0.0"
+version: "0.1"
+profile: "prophecy-default"
+
+# ==================
+# File Path Configs
+# ==================
+clean-targets:
+- "target"
+- "dbt_modules"
+- "logs"
+seed-paths:
+- "seeds"
+model-paths:
+- "models"
+- "prophecy-sources"
+macro-paths:
+- "macros"
+target-path: "target"
+
+# ==================
+# Model Configs
+# ==================
+models:
+  "+kms_key_name": ""
+
+# ==================
+# Seed Configs
+# ==================
+seeds:
+  "+kms_key_name": ""
+
+# ==================
+# Snapshot Configs
+# ==================
+snapshots:
+  "+kms_key_name": ""
+
+# ==================
+# Source Configs
+# ==================
+sources:
+  "+kms_key_name": ""
+
+# ==================
+# Test Configs
+# ==================
+tests:
+  "+kms_key_name": ""

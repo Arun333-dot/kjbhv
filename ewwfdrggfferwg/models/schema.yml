@@ -1,0 +1,39 @@
+---
+version: 2
+models:
+- name: "zsdfgh"
+  columns:
+  - name: "first_name"
+    dataType:
+      type: "String"
+  - name: "customer_id"
+    dataType:
+      type: "Integer"
+  - name: "customer_lifetime_value"
+    dataType:
+      type: "Float"
+  - name: "user_id"
+    dataType:
+      type: "Integer"
+  - name: "first_order"
+    dataType:
+      type: "Date"
+  - name: "id"
+    dataType:
+      type: "Integer"
+  - name: "last_name"
+    dataType:
+      type: "String"
+  - name: "order_date"
+    dataType:
+      type: "Date"
+  - name: "status"
+    dataType:
+      type: "String"
+  - name: "number_of_orders"
+    dataType:
+      type: "Integer"
+  - name: "most_recent_order"
+    dataType:
+      type: "Date"
+  tests: []
