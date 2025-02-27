@@ -1,0 +1,828 @@
+{
+  "id" : "ljlkkjkjn",
+  "metainfo" : {
+    "label" : "ljlkkjkjn",
+    "autoLayout" : false,
+    "staleState" : "file",
+    "sourceSuggestions" : {
+      "sources" : [ {
+        "source" : {
+          "table" : {
+            "name" : "model1",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "model1",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+            "conditions" : [ {
+              "alias" : "model1",
+              "expression" : {
+                "expression" : "model1.customer_id = customers.customer_id AND model1.customer_lifetime_value = customers.customer_lifetime_value AND model1.first_name = customers.first_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "model1.id"
+              },
+              "alias" : "id"
+            }, {
+              "expression" : {
+                "expression" : "model1.user_id"
+              },
+              "alias" : "user_id"
+            }, {
+              "expression" : {
+                "expression" : "model1.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "model1.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "model1",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+          "isRecommended" : true
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "raw_customers",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "raw_customers",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "first_name", "last_name" ],
+            "conditions" : [ {
+              "alias" : "raw_customers",
+              "expression" : {
+                "expression" : "raw_customers.first_name = customers.first_name AND raw_customers.last_name = customers.last_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "raw_customers.id"
+              },
+              "alias" : "id"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "raw_customers",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "first_name", "last_name" ],
+          "isRecommended" : true
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "stg_customers",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "stg_customers",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id", "first_name", "last_name" ],
+            "conditions" : [ {
+              "alias" : "stg_customers",
+              "expression" : {
+                "expression" : "stg_customers.customer_id = customers.customer_id AND stg_customers.first_name = customers.first_name AND stg_customers.last_name = customers.last_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "stg_customers",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id", "first_name", "last_name" ],
+          "isRecommended" : true
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "zsdfgh",
+            "sourceType" : "Model"
+          }
+        },
+        "sourceComponentKind" : "Model",
+        "sourceLabel" : "zsdfgh",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+            "conditions" : [ {
+              "alias" : "zsdfgh",
+              "expression" : {
+                "expression" : "zsdfgh.customer_id = customers.customer_id AND zsdfgh.customer_lifetime_value = customers.customer_lifetime_value AND zsdfgh.first_name = customers.first_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "zsdfgh.id"
+              },
+              "alias" : "id"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.user_id"
+              },
+              "alias" : "user_id"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "zsdfgh",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+          "isRecommended" : true
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "zsdfgh",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek_table_level",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "zsdfgh",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+            "conditions" : [ {
+              "alias" : "zsdfgh",
+              "expression" : {
+                "expression" : "zsdfgh.customer_id = customers.customer_id AND zsdfgh.customer_lifetime_value = customers.customer_lifetime_value AND zsdfgh.first_name = customers.first_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "zsdfgh.id"
+              },
+              "alias" : "id"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.user_id"
+              },
+              "alias" : "user_id"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "zsdfgh",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+          "isRecommended" : true
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "model1",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek_table_level",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "model1",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+            "conditions" : [ {
+              "alias" : "model1",
+              "expression" : {
+                "expression" : "model1.customer_id = customers.customer_id AND model1.customer_lifetime_value = customers.customer_lifetime_value AND model1.first_name = customers.first_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "model1.id"
+              },
+              "alias" : "id"
+            }, {
+              "expression" : {
+                "expression" : "model1.user_id"
+              },
+              "alias" : "user_id"
+            }, {
+              "expression" : {
+                "expression" : "model1.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "model1.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "model1",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+          "isRecommended" : false
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "orders",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "orders",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id" ],
+            "conditions" : [ {
+              "alias" : "orders",
+              "expression" : {
+                "expression" : "orders.customer_id = customers.customer_id"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "orders.order_id"
+              },
+              "alias" : "order_id"
+            }, {
+              "expression" : {
+                "expression" : "orders.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "orders.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "orders.credit_card_amount"
+              },
+              "alias" : "credit_card_amount"
+            }, {
+              "expression" : {
+                "expression" : "orders.coupon_amount"
+              },
+              "alias" : "coupon_amount"
+            }, {
+              "expression" : {
+                "expression" : "orders.bank_transfer_amount"
+              },
+              "alias" : "bank_transfer_amount"
+            }, {
+              "expression" : {
+                "expression" : "orders.gift_card_amount"
+              },
+              "alias" : "gift_card_amount"
+            }, {
+              "expression" : {
+                "expression" : "orders.amount"
+              },
+              "alias" : "amount"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "orders",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id" ],
+          "isRecommended" : false
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "stg_orders",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "stg_orders",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id" ],
+            "conditions" : [ {
+              "alias" : "stg_orders",
+              "expression" : {
+                "expression" : "stg_orders.customer_id = customers.customer_id"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "stg_orders.order_id"
+              },
+              "alias" : "order_id"
+            }, {
+              "expression" : {
+                "expression" : "stg_orders.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "stg_orders.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "stg_orders",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id" ],
+          "isRecommended" : false
+        } ]
+      }, {
+        "source" : {
+          "table" : {
+            "name" : "zsdfgh",
+            "sourceName" : "prophecy-databricks-qa.dev_cmek",
+            "sourceType" : "ExternalSource"
+          }
+        },
+        "sourceComponentKind" : "ExternalSource",
+        "sourceLabel" : "zsdfgh",
+        "canJoinWith" : [ {
+          "processLabel" : "customers",
+          "processId" : "XeUE4bZjxEOQqqkUTh3pn",
+          "properties" : {
+            "activeTab" : "conditions",
+            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+            "conditions" : [ {
+              "alias" : "zsdfgh",
+              "expression" : {
+                "expression" : "zsdfgh.customer_id = customers.customer_id AND zsdfgh.customer_lifetime_value = customers.customer_lifetime_value AND zsdfgh.first_name = customers.first_name"
+              },
+              "joinType" : "inner"
+            } ],
+            "expressions" : [ {
+              "expression" : {
+                "expression" : "zsdfgh.id"
+              },
+              "alias" : "id"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.user_id"
+              },
+              "alias" : "user_id"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.order_date"
+              },
+              "alias" : "order_date"
+            }, {
+              "expression" : {
+                "expression" : "zsdfgh.status"
+              },
+              "alias" : "status"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_id"
+              },
+              "alias" : "customer_id"
+            }, {
+              "expression" : {
+                "expression" : "customers.most_recent_order"
+              },
+              "alias" : "most_recent_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.last_name"
+              },
+              "alias" : "last_name"
+            }, {
+              "expression" : {
+                "expression" : "customers.customer_lifetime_value"
+              },
+              "alias" : "customer_lifetime_value"
+            }, {
+              "expression" : {
+                "expression" : "customers.number_of_orders"
+              },
+              "alias" : "number_of_orders"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_order"
+              },
+              "alias" : "first_order"
+            }, {
+              "expression" : {
+                "expression" : "customers.first_name"
+              },
+              "alias" : "first_name"
+            } ],
+            "headAlias" : "zsdfgh",
+            "allowSelection" : false
+          },
+          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
+          "isRecommended" : false
+        } ]
+      } ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "ljlkkjkjn##KPUYd4hR" : {
+      "id" : "ljlkkjkjn##KPUYd4hR",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "ljlkkjkjn",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT * \n\nFROM customers\n",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "JG80Uipn",
+          "slug" : "customers"
+        } ],
+        "outputs" : [ {
+          "id" : "lKJzimLT",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "XeUE4bZjxEOQqqkUTh3pn" : {
+      "id" : "XeUE4bZjxEOQqqkUTh3pn",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customers",
+        "slug" : "customers",
+        "x" : -180,
+        "y" : 0,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "customers",
+          "sourceType" : "Source",
+          "sourceName" : "prophecy-databricks-qa.dev_cmek",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "bxd7-XhzDMrOgYQs9hTRg",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "ibUrTRN0XWdwaoWtxepb5$$jJtYEpbBjbykIFoaa6a7p",
+    "source" : "XeUE4bZjxEOQqqkUTh3pn",
+    "sourcePort" : "bxd7-XhzDMrOgYQs9hTRg",
+    "target" : "ljlkkjkjn##KPUYd4hR",
+    "targetPort" : "JG80Uipn"
+  } ],
+  "component" : "Model"
+}

@@ -29,28 +29,28 @@ target-path: "target"
 # Model Configs
 # ==================
 models:
-  "+kms_key_name": ""
+  "+kms_key_name": "projects/prophecy-databricks-qa/locations/us/keyRings/bq-cmek-us/cryptoKeys/bq-cmek-us"
 
 # ==================
 # Seed Configs
 # ==================
 seeds:
-  "+kms_key_name": ""
+  "+kms_key_name": "projects/prophecy-databricks-qa/locations/us/keyRings/bq-cmek-us/cryptoKeys/bq-cmek-us"
 
 # ==================
 # Snapshot Configs
 # ==================
 snapshots:
-  "+kms_key_name": ""
+  "+kms_key_name": "projects/prophecy-databricks-qa/locations/us/keyRings/bq-cmek-us/cryptoKeys/bq-cmek-us"
 
 # ==================
 # Source Configs
 # ==================
 sources:
-  "+kms_key_name": ""
+  "+kms_key_name": "projects/prophecy-databricks-qa/locations/us/keyRings/bq-cmek-us/cryptoKeys/bq-cmek-us"
 
 # ==================
 # Test Configs
 # ==================
 tests:
-  "+kms_key_name": ""
+  "+kms_key_name": "projects/prophecy-databricks-qa/locations/us/keyRings/bq-cmek-us/cryptoKeys/bq-cmek-us"
