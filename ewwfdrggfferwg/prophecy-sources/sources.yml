@@ -1,0 +1,75 @@
+---
+version: 2
+sources:
+- name: "prophecy-databricks-qa.dev_cmek"
+  database: "prophecy-databricks-qa"
+  schema: "dev_cmek"
+  config:
+    enabled: true
+  quoting:
+    database: true
+  tables:
+  - name: "customers"
+    description: "Customer information including order history, lifetime value, and\
+      \ order frequency for customer relationship analysis."
+    quoting:
+      identifier: true
+    columns:
+    - name: "customer_id"
+      description: "Unique identifier for each customer"
+      dataType:
+        type: "Integer"
+    - name: "first_name"
+      description: "First name of the customer"
+      dataType:
+        type: "String"
+    - name: "last_name"
+      description: "Last name of the customer"
+      dataType:
+        type: "String"
+    - name: "first_order"
+      description: "Date of the customer's first order"
+      dataType:
+        type: "Date"
+    - name: "most_recent_order"
+      description: "Date of the most recent order placed by the customer"
+      dataType:
+        type: "Date"
+    - name: "number_of_orders"
+      description: "Total count of orders placed by the customer"
+      dataType:
+        type: "Integer"
+    - name: "customer_lifetime_value"
+      description: "Total value of purchases made by the customer over their lifetime"
+      dataType:
+        type: "Float"
+- name: "prophecy-databricks-qa.dev_cmek_table_level"
+  database: "prophecy-databricks-qa"
+  schema: "dev_cmek_table_level"
+  config:
+    enabled: true
+  quoting:
+    database: true
+  tables:
+  - name: "raw_orders"
+    description: "Records of orders including order date, status, and user details\
+      \ for order processing and tracking."
+    quoting:
+      identifier: true
+    columns:
+    - name: "id"
+      description: "Unique identifier for each order"
+      dataType:
+        type: "Integer"
+    - name: "user_id"
+      description: "Unique identifier of the user placing the order"
+      dataType:
+        type: "Integer"
+    - name: "order_date"
+      description: "Date when the order was placed"
+      dataType:
+        type: "Date"
+    - name: "status"
+      description: "Current status of the order"
+      dataType:
+        type: "String"

@@ -1,0 +1,235 @@
+name: bigquery_exte_project
+description: ''
+version: 0.0.1
+author: arunsharma@prophecy.io
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs:
+  jobs/jknnjkjnk:
+    name: jknnjkjnk
+    description: ''
+    fabricUID: 1806
+    scheduler:
+      Prophecy: {}
+    cloudProvider: null
+    jobSize: null
+    scheduleCron: None
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines: []
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: null
+    createdAt: '2025-02-27 05:58:54'
+    author: arunsharma@prophecy.io
+    models:
+    - ljlkkjkjn
+    sqlProjects: []
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-02-26 07:18:05'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/ljlkkjkjn:
+    name: ljlkkjkjn
+    schema:
+      entityType: ''
+      providerType: BigQuery
+      fields:
+      - name: customer_id
+        dataType:
+          type: Integer
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Integer
+      - name: customer_lifetime_value
+        dataType:
+          type: Float
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/ljlkkjkjn.sql
+    - .prophecy/ide/models/ljlkkjkjn.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-27 05:20:51'
+  .prophecy/metadata/sqlmodels/zsdfgh:
+    name: zsdfgh
+    schema:
+      entityType: ''
+      providerType: BigQuery
+      fields:
+      - name: customer_id
+        dataType:
+          type: Integer
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Integer
+      - name: customer_lifetime_value
+        dataType:
+          type: Float
+      - name: id
+        dataType:
+          type: Integer
+      - name: user_id
+        dataType:
+          type: Integer
+      - name: order_date
+        dataType:
+          type: Date
+      - name: status
+        dataType:
+          type: String
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/zsdfgh.sql
+    - .prophecy/ide/models/zsdfgh.json
+    - models/schema.yml
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-26 07:18:23'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/generate_schema_name:
+    name: generate_schema_name
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/generate_schema_name.sql
+    - .prophecy/ide/macros/generate_schema_name.json
+    createdAt: '2025-02-26 07:18:16'
+sqlSeeds: {}
+sqlSources:
+  .prophecy/metadata/sqlsources/prophecy-databricks-qa_dev_cmek:
+    name: prophecy-databricks-qa.dev_cmek
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2025-02-26 07:18:47'
+    tables:
+    - name: customers
+      schema:
+        entityType: ''
+        providerType: bigquery
+        fields:
+        - name: customer_id
+          dataType:
+            type: Integer
+        - name: first_name
+          dataType:
+            type: String
+        - name: last_name
+          dataType:
+            type: String
+        - name: first_order
+          dataType:
+            type: Date
+        - name: most_recent_order
+          dataType:
+            type: Date
+        - name: number_of_orders
+          dataType:
+            type: Integer
+        - name: customer_lifetime_value
+          dataType:
+            type: Float
+      description: Customer information including order history, lifetime value, and
+        order frequency for customer relationship analysis.
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-26 07:18:47'
+  .prophecy/metadata/sqlsources/prophecy-databricks-qa_dev_cmek_table_level:
+    name: prophecy-databricks-qa.dev_cmek_table_level
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2025-02-26 07:18:48'
+    tables:
+    - name: raw_orders
+      schema:
+        entityType: ''
+        providerType: bigquery
+        fields:
+        - name: id
+          dataType:
+            type: Integer
+        - name: user_id
+          dataType:
+            type: Integer
+        - name: order_date
+          dataType:
+            type: Date
+        - name: status
+          dataType:
+            type: String
+      description: Records of orders including order date, status, and user details
+        for order processing and tracking.
+      author: arunsharma@prophecy.io
+      createdAt: '2025-02-26 07:18:48'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: arunsharma@prophecy.io
+  createdAt: '2025-02-26 07:18:05'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
