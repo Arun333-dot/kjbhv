@@ -135,6 +135,14 @@ sqlModels:
     createdAt: '2025-02-19 17:57:24'
 sqlSnapshots: {}
 sqlTests:
+  .prophecy/metadata/sqltests/gthyjm:
+    name: gthyjm
+    description: dsfvgbhnj
+    author: arunsharma@prophecy.io
+    files:
+    - tests/generic/gthyjm.sql/gthyjm.sql
+    testType: GenericDataTest
+    createdAt: '2025-02-25 19:50:01'
   .prophecy/metadata/sqltests/hnvgcbfxvd:
     name: hnvgcbfxvd
     description: null
@@ -154,6 +162,17 @@ sqlMacros:
     - .prophecy/ide/macros/f2.json
     - macros/f2.sql/f2.sql.yml
     createdAt: '2025-02-21 12:03:13'
+  .prophecy/metadata/sqlmacros/zscascasc:
+    name: zscascasc
+    macroType: query
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/zscascasc.sql
+    - .prophecy/ide/macros/zscascasc.json
+    - macros/macros_2.yml
+    - gems/zscascasc.py
+    createdAt: '2025-02-25 19:46:17'
   .prophecy/metadata/sqlmacros/generate_schema_name:
     name: generate_schema_name
     macroType: expression
@@ -175,6 +194,15 @@ sqlMacros:
     - macros/macros.yml
     - gems/jknl.py
     createdAt: '2025-02-19 20:58:04'
+  .prophecy/metadata/sqlmacros/jjknjkjknjkn:
+    name: jjknjkjknjkn
+    macroType: expression
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - macros/jjknjkjknjkn.sql/jjknjkjknjkn.sql
+    - .prophecy/ide/macros/jjknjkjknjkn.json
+    createdAt: '2025-02-25 14:08:56'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/ghnj:
     name: ghnj
@@ -251,7 +279,8 @@ sqlSources:
         - name: customer_lifetime_value
           dataType:
             type: Double
-      description: null
+      description: Customer data model capturing customer details, order history,
+        and lifetime value for business insights and customer relationship management.
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 07:08:08'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
@@ -305,7 +334,7 @@ sqlSources:
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-25 06:47:41'
+      createdAt: '2025-02-25 20:09:40'
   .prophecy/metadata/sqlsources/prophecy__temp_5_source:
     name: prophecy__temp_5_source
     description: null

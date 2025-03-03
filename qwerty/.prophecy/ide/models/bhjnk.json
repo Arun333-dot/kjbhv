@@ -5,508 +5,7 @@
     "autoLayout" : false,
     "staleState" : "file",
     "sourceSuggestions" : {
-      "sources" : [ {
-        "source" : {
-          "table" : {
-            "name" : "5",
-            "sourceType" : "Model"
-          }
-        },
-        "sourceComponentKind" : "Model",
-        "sourceLabel" : "5",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-            "conditions" : [ {
-              "alias" : "5",
-              "expression" : {
-                "expression" : "5.customer_id = 6.customer_id AND 5.customer_lifetime_value = 6.customer_lifetime_value AND 5.first_name = 6.first_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "5",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-          "isRecommended" : true
-        } ]
-      }, {
-        "source" : {
-          "table" : {
-            "name" : "7",
-            "sourceType" : "Model"
-          }
-        },
-        "sourceComponentKind" : "Model",
-        "sourceLabel" : "7",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-            "conditions" : [ {
-              "alias" : "7",
-              "expression" : {
-                "expression" : "7.customer_id = 6.customer_id AND 7.customer_lifetime_value = 6.customer_lifetime_value AND 7.first_name = 6.first_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "7",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-          "isRecommended" : true
-        } ]
-      }, {
-        "source" : {
-          "table" : {
-            "name" : "iujoijoijio",
-            "sourceType" : "Model"
-          }
-        },
-        "sourceComponentKind" : "Model",
-        "sourceLabel" : "iujoijoijio",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "first_name", "last_name" ],
-            "conditions" : [ {
-              "alias" : "iujoijoijio",
-              "expression" : {
-                "expression" : "iujoijoijio.customer_id = 6.customer_id AND iujoijoijio.first_name = 6.first_name AND iujoijoijio.last_name = 6.last_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "iujoijoijio.phone"
-              },
-              "alias" : "phone"
-            }, {
-              "expression" : {
-                "expression" : "iujoijoijio.email"
-              },
-              "alias" : "email"
-            }, {
-              "expression" : {
-                "expression" : "iujoijoijio.country_code"
-              },
-              "alias" : "country_code"
-            }, {
-              "expression" : {
-                "expression" : "iujoijoijio.account_open_date"
-              },
-              "alias" : "account_open_date"
-            }, {
-              "expression" : {
-                "expression" : "iujoijoijio.account_flags"
-              },
-              "alias" : "account_flags"
-            }, {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "iujoijoijio",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "first_name", "last_name" ],
-          "isRecommended" : true
-        } ]
-      }, {
-        "source" : {
-          "table" : {
-            "name" : "model",
-            "sourceName" : "hive_metastore.arun123",
-            "sourceType" : "Source"
-          }
-        },
-        "sourceComponentKind" : "Source",
-        "sourceLabel" : "model",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-            "conditions" : [ {
-              "alias" : "model",
-              "expression" : {
-                "expression" : "model.customer_id = 6.customer_id AND model.customer_lifetime_value = 6.customer_lifetime_value AND model.first_name = 6.first_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "model",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-          "isRecommended" : true
-        } ]
-      }, {
-        "source" : {
-          "table" : {
-            "name" : "uiiujijiji",
-            "sourceType" : "Model"
-          }
-        },
-        "sourceComponentKind" : "Model",
-        "sourceLabel" : "uiiujijiji",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-            "conditions" : [ {
-              "alias" : "uiiujijiji",
-              "expression" : {
-                "expression" : "uiiujijiji.customer_id = 6.customer_id AND uiiujijiji.customer_lifetime_value = 6.customer_lifetime_value AND uiiujijiji.first_name = 6.first_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "uiiujijiji",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-          "isRecommended" : true
-        } ]
-      }, {
-        "source" : {
-          "table" : {
-            "name" : "model1",
-            "sourceName" : "hive_metastore.arun123",
-            "sourceType" : "Source"
-          }
-        },
-        "sourceComponentKind" : "Source",
-        "sourceLabel" : "model1",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-            "conditions" : [ {
-              "alias" : "model1",
-              "expression" : {
-                "expression" : "model1.customer_id = 6.customer_id AND model1.customer_lifetime_value = 6.customer_lifetime_value AND model1.first_name = 6.first_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "model1",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "customer_lifetime_value", "first_name" ],
-          "isRecommended" : false
-        } ]
-      }, {
-        "source" : {
-          "table" : {
-            "name" : "sqlmodel",
-            "sourceName" : "hive_metastore.arun123",
-            "sourceType" : "Source"
-          }
-        },
-        "sourceComponentKind" : "Source",
-        "sourceLabel" : "sqlmodel",
-        "canJoinWith" : [ {
-          "processLabel" : "6",
-          "processId" : "00oeoIVPKw8zlEWDAD62V",
-          "properties" : {
-            "activeTab" : "conditions",
-            "columnsSelector" : [ "customer_id", "first_name", "last_name" ],
-            "conditions" : [ {
-              "alias" : "sqlmodel",
-              "expression" : {
-                "expression" : "sqlmodel.customer_id = 6.customer_id AND sqlmodel.first_name = 6.first_name AND sqlmodel.last_name = 6.last_name"
-              },
-              "joinType" : "inner"
-            } ],
-            "expressions" : [ {
-              "expression" : {
-                "expression" : "sqlmodel.phone"
-              },
-              "alias" : "phone"
-            }, {
-              "expression" : {
-                "expression" : "sqlmodel.email"
-              },
-              "alias" : "email"
-            }, {
-              "expression" : {
-                "expression" : "sqlmodel.country_code"
-              },
-              "alias" : "country_code"
-            }, {
-              "expression" : {
-                "expression" : "sqlmodel.account_open_date"
-              },
-              "alias" : "account_open_date"
-            }, {
-              "expression" : {
-                "expression" : "sqlmodel.account_flags"
-              },
-              "alias" : "account_flags"
-            }, {
-              "expression" : {
-                "expression" : "6.first_order"
-              },
-              "alias" : "first_order"
-            }, {
-              "expression" : {
-                "expression" : "6.first_name"
-              },
-              "alias" : "first_name"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_id"
-              },
-              "alias" : "customer_id"
-            }, {
-              "expression" : {
-                "expression" : "6.number_of_orders"
-              },
-              "alias" : "number_of_orders"
-            }, {
-              "expression" : {
-                "expression" : "6.customer_lifetime_value"
-              },
-              "alias" : "customer_lifetime_value"
-            }, {
-              "expression" : {
-                "expression" : "6.most_recent_order"
-              },
-              "alias" : "most_recent_order"
-            }, {
-              "expression" : {
-                "expression" : "6.last_name"
-              },
-              "alias" : "last_name"
-            } ],
-            "headAlias" : "sqlmodel",
-            "allowSelection" : false
-          },
-          "joinColumns" : [ "customer_id", "first_name", "last_name" ],
-          "isRecommended" : false
-        } ]
-      } ]
+      "sources" : [ ]
     },
     "version" : 3
   },
@@ -518,13 +17,14 @@
         "label" : "bhjnk",
         "x" : 20,
         "y" : 20,
-        "phase" : 0
+        "phase" : 0,
+        "macroDependencies" : [ ]
       },
       "properties" : {
         "customQueryDisabled" : true,
         "customQuery" : false,
         "incrementalEditorDisabled" : true,
-        "query" : "",
+        "query" : "SELECT * \n\nFROM in0\n",
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"
@@ -564,6 +64,34 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "plwGet9MCuOZd26JQYiAN",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "1E5Tld0iRioUn01ypAjq8" : {
+      "id" : "1E5Tld0iRioUn01ypAjq8",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "test5672",
+        "slug" : "test5672",
+        "x" : -760,
+        "y" : -220,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "test5672",
+          "sourceType" : "Source",
+          "sourceName" : "hive_metastore.asadas",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "jKF8pgEW_zOcEQGp5fq7K",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,

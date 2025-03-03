@@ -1,0 +1,10 @@
+---
+version: 2
+dataTests:
+- name: "gthyjm"
+  description: "dsfvgbhnj"
+  arguments:
+  - name: "dcfe"
+    type: "value"
+    description: "{\"ProphecyType\": \"value\"}"
+  type: "generic"
