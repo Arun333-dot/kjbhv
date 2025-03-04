@@ -95,31 +95,7 @@ sqlModels:
     createdAt: '2025-02-25 08:56:49'
   .prophecy/metadata/sqlmodels/uiiujijiji:
     name: uiiujijiji
-    schema:
-      entityType: ''
-      providerType: Databricks
-      fields:
-      - name: customer_id
-        dataType:
-          type: Bigint
-      - name: first_name
-        dataType:
-          type: String
-      - name: last_name
-        dataType:
-          type: String
-      - name: first_order
-        dataType:
-          type: Date
-      - name: most_recent_order
-        dataType:
-          type: Date
-      - name: number_of_orders
-        dataType:
-          type: Bigint
-      - name: customer_lifetime_value
-        dataType:
-          type: Double
+    schema: null
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -253,36 +229,6 @@ sqlSources:
       description: null
       author: arunsharma@prophecy.io
       createdAt: '2025-02-21 06:51:55'
-    - name: model
-      schema:
-        entityType: ''
-        providerType: databricks
-        fields:
-        - name: customer_id
-          dataType:
-            type: Bigint
-        - name: first_name
-          dataType:
-            type: String
-        - name: last_name
-          dataType:
-            type: String
-        - name: first_order
-          dataType:
-            type: Date
-        - name: most_recent_order
-          dataType:
-            type: Date
-        - name: number_of_orders
-          dataType:
-            type: Bigint
-        - name: customer_lifetime_value
-          dataType:
-            type: Double
-      description: Customer data model capturing customer details, order history,
-        and lifetime value for business insights and customer relationship management.
-      author: arunsharma@prophecy.io
-      createdAt: '2025-02-21 07:08:08'
   .prophecy/metadata/sqlsources/prophecy__temp_ghvjbknlm_source:
     name: prophecy__temp_ghvjbknlm_source
     description: null
@@ -330,11 +276,36 @@ sqlSources:
     - models/fgyhuj/schema.yml
     createdAt: '2025-02-19 17:44:51'
     tables:
-    - name: prophecy__temp_fgyhuj_post_Aggregate_1
+    - name: prophecy__temp_jhbkn_post_Filter_1
       schema: null
       description: null
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-25 20:09:40'
+      createdAt: '2025-03-04 11:03:31'
+    - name: prophecy__temp_jhbkn_post_SQLStatement_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-03-04 11:03:31'
+    - name: prophecy__temp_jhbkn_post_Macro_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-03-04 11:03:31'
+    - name: prophecy__temp_jhbkn_post_Reformat_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-03-04 11:03:31'
+    - name: prophecy__temp_jhbkn_post_WindowFunction_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-03-04 11:03:31'
+    - name: prophecy__temp_jhbkn_post_Union_1
+      schema: null
+      description: null
+      author: arunsharma@prophecy.io
+      createdAt: '2025-03-04 11:03:31'
   .prophecy/metadata/sqlsources/prophecy__temp_5_source:
     name: prophecy__temp_5_source
     description: null
