@@ -1,0 +1,84 @@
+{
+  "id" : "newModel",
+  "metainfo" : {
+    "label" : "newModel",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "newModel##fCWts6ky" : {
+      "id" : "newModel##fCWts6ky",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "newModel",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT * \n\nFROM customers\n",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "yNUVICxE",
+          "slug" : "customers"
+        } ],
+        "outputs" : [ {
+          "id" : "gClZFJso",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "bfwFkvBbzzt44t3lt394w" : {
+      "id" : "bfwFkvBbzzt44t3lt394w",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customers",
+        "slug" : "customers",
+        "x" : -180,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "customers",
+          "sourceType" : "Source",
+          "sourceName" : "prophecy-databricks-qa.dev_cmek",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "dsEwvnmWYZrK6SRrua14n",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "A8VmbP2QMwWcpTjpxns8-$$sobANZiwrMfEERsXFGPNe",
+    "source" : "bfwFkvBbzzt44t3lt394w",
+    "sourcePort" : "dsEwvnmWYZrK6SRrua14n",
+    "target" : "newModel##fCWts6ky",
+    "targetPort" : "yNUVICxE"
+  } ],
+  "component" : "Model"
+}

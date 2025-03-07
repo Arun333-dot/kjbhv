@@ -6,7 +6,7 @@
     "name" : "jknnjkjnk",
     "dagName" : "XmaPWHT9Q07d7rnzrrnY5g_",
     "schedule" : "None",
-    "enabled" : false,
+    "enabled" : true,
     "alerting" : {
       "emails" : "",
       "onStart" : false,

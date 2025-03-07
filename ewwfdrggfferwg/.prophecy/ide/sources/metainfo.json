@@ -292,6 +292,46 @@
               }
             } ]
           },
+          "ljlkkjkjn" : {
+            "entityType" : "VIEW",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "customer_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "first_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "last_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "first_order",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "most_recent_order",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "number_of_orders",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "customer_lifetime_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            } ]
+          },
           "orders" : {
             "entityType" : "TABLE",
             "providerType" : "BigQuery",
@@ -391,11 +431,46 @@
         "type" : "Schema",
         "name" : "dev_cmek_table_level",
         "tables" : {
-          "zsdfgh" : {
+          "model1" : {
             "entityType" : "VIEW",
             "providerType" : "BigQuery",
             "fields" : [ {
+              "name" : "first_order",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "most_recent_order",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "order_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "customer_lifetime_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
               "name" : "customer_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "number_of_orders",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "user_id",
               "dataType" : {
                 "type" : "Integer"
               }
@@ -410,48 +485,13 @@
                 "type" : "String"
               }
             }, {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "user_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
               "name" : "status",
               "dataType" : {
                 "type" : "String"
               }
             } ]
           },
-          "raw_orders" : {
+          "model" : {
             "entityType" : "TABLE",
             "providerType" : "BigQuery",
             "fields" : [ {
@@ -460,9 +500,44 @@
                 "type" : "Integer"
               }
             }, {
-              "name" : "user_id",
+              "name" : "first_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "last_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "dsfg" : {
+            "entityType" : "TABLE",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "age",
               "dataType" : {
                 "type" : "Integer"
+              }
+            }, {
+              "name" : "name",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "zsdfgh" : {
+            "entityType" : "TABLE",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "first_order",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "most_recent_order",
+              "dataType" : {
+                "type" : "Date"
               }
             }, {
               "name" : "order_date",
@@ -470,17 +545,27 @@
                 "type" : "Date"
               }
             }, {
-              "name" : "status",
+              "name" : "customer_lifetime_value",
               "dataType" : {
-                "type" : "String"
+                "type" : "Float"
               }
-            } ]
-          },
-          "model1" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
+            }, {
               "name" : "customer_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "number_of_orders",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "user_id",
               "dataType" : {
                 "type" : "Integer"
               }
@@ -495,6 +580,31 @@
                 "type" : "String"
               }
             }, {
+              "name" : "status",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "hjbknl" : {
+            "entityType" : "TABLE",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "age",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "name",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "ljlkkjkjn" : {
+            "entityType" : "VIEW",
+            "providerType" : "BigQuery",
+            "fields" : [ {
               "name" : "first_order",
               "dataType" : {
                 "type" : "Date"
@@ -505,32 +615,27 @@
                 "type" : "Date"
               }
             }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
               "name" : "customer_lifetime_value",
               "dataType" : {
                 "type" : "Float"
               }
             }, {
-              "name" : "id",
+              "name" : "customer_id",
               "dataType" : {
                 "type" : "Integer"
               }
             }, {
-              "name" : "user_id",
+              "name" : "number_of_orders",
               "dataType" : {
                 "type" : "Integer"
               }
             }, {
-              "name" : "order_date",
+              "name" : "first_name",
               "dataType" : {
-                "type" : "Date"
+                "type" : "String"
               }
             }, {
-              "name" : "status",
+              "name" : "last_name",
               "dataType" : {
                 "type" : "String"
               }
@@ -564,6 +669,14 @@
     "name" : "ljlkkjkjn",
     "type" : "Model",
     "syncedOnce" : false
+  }, {
+    "name" : "newModel",
+    "type" : "Model",
+    "syncedOnce" : false
+  }, {
+    "name" : "zsdfgh",
+    "type" : "Model",
+    "syncedOnce" : true
   } ],
   "frontEndLanguage" : "sql"
 }

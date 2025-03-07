@@ -27,9 +27,9 @@ jobs:
     pipelines: []
     jobClusterMode:
       clusterMode:
-        Single: {}
+        Multi: {}
       clusterId: null
-    enabled: null
+    enabled: true
     createdAt: '2025-02-27 05:58:54'
     author: arunsharma@prophecy.io
     models:
@@ -89,6 +89,45 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-27 05:20:51'
+  .prophecy/metadata/sqlmodels/newModel:
+    name: newModel
+    schema:
+      entityType: ''
+      providerType: BigQuery
+      fields:
+      - name: customer_id
+        dataType:
+          type: Integer
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+      - name: first_order
+        dataType:
+          type: Date
+      - name: most_recent_order
+        dataType:
+          type: Date
+      - name: number_of_orders
+        dataType:
+          type: Integer
+      - name: customer_lifetime_value
+        dataType:
+          type: Float
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - models/newModel.sql
+    - .prophecy/ide/models/newModel.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-03-06 12:50:09'
   .prophecy/metadata/sqlmodels/zsdfgh:
     name: zsdfgh
     schema:
@@ -116,18 +155,9 @@ sqlModels:
       - name: customer_lifetime_value
         dataType:
           type: Float
-      - name: id
+      - name: age
         dataType:
           type: Integer
-      - name: user_id
-        dataType:
-          type: Integer
-      - name: order_date
-        dataType:
-          type: Date
-      - name: status
-        dataType:
-          type: String
     description: null
     author: arunsharma@prophecy.io
     files:
@@ -201,27 +231,21 @@ sqlSources:
     - prophecy-sources/sources.yml
     createdAt: '2025-02-26 07:18:48'
     tables:
-    - name: raw_orders
+    - name: dsfg
       schema:
         entityType: ''
         providerType: bigquery
         fields:
-        - name: id
+        - name: age
           dataType:
             type: Integer
-        - name: user_id
-          dataType:
-            type: Integer
-        - name: order_date
-          dataType:
-            type: Date
-        - name: status
+        - name: name
           dataType:
             type: String
-      description: Records of orders including order date, status, and user details
-        for order processing and tracking.
+      description: Dataset containing names and ages of individuals, but no specific
+        format or pipelines are specified.
       author: arunsharma@prophecy.io
-      createdAt: '2025-02-26 07:18:48'
+      createdAt: '2025-03-07 05:48:41'
 sqlUnreferencedSources: {}
 sqlPipeline:
   name: sqlPipeline

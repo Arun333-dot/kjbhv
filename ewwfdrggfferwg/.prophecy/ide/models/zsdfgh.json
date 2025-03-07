@@ -16,41 +16,6 @@
     "version" : 3
   },
   "processes" : {
-    "zsdfgh##qECEhUEz" : {
-      "id" : "zsdfgh##qECEhUEz",
-      "component" : "TargetModel",
-      "metadata" : {
-        "label" : "zsdfgh",
-        "x" : 300,
-        "y" : -120,
-        "phase" : 0,
-        "macroDependencies" : [ ],
-        "comment" : "Creates a new dataset from the joined customer and asset information.",
-        "autoUpdateComment" : true
-      },
-      "properties" : {
-        "customQueryDisabled" : true,
-        "customQuery" : false,
-        "incrementalEditorDisabled" : true,
-        "query" : "SELECT * \n\nFROM Join_1\n",
-        "incrementalKey" : false,
-        "incremental" : {
-          "expression" : "true"
-        }
-      },
-      "ports" : {
-        "inputs" : [ {
-          "id" : "rMI3phcz",
-          "slug" : "Join_1"
-        } ],
-        "outputs" : [ {
-          "id" : "RmjtvUu0",
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      }
-    },
     "LIQpnJfcDyTuzs-nlJXBD$$F7k4-x4KBh5-PEeQaTowy" : {
       "id" : "LIQpnJfcDyTuzs-nlJXBD$$F7k4-x4KBh5-PEeQaTowy",
       "component" : "Join",
@@ -61,14 +26,14 @@
         "y" : -460,
         "phase" : 0,
         "macroDependencies" : [ ],
-        "comment" : "Combines customer details with raw order information for analysis.",
+        "comment" : "Combines customer details with additional information for analysis.",
         "autoUpdateComment" : true
       },
       "properties" : {
         "conditions" : [ {
           "alias" : "in1",
           "expression" : {
-            "expression" : "in0.customer_id = in1.user_id"
+            "expression" : "in0.customer_id = in1.age"
           },
           "joinType" : "INNER"
         } ],
@@ -116,31 +81,13 @@
           "_row_id" : "807984316"
         }, {
           "expression" : {
-            "expression" : "in1.id"
+            "expression" : "in1.age"
           },
-          "alias" : "id",
-          "_row_id" : "16279292"
-        }, {
-          "expression" : {
-            "expression" : "in1.user_id"
-          },
-          "alias" : "user_id",
-          "_row_id" : "432461560"
-        }, {
-          "expression" : {
-            "expression" : "in1.order_date"
-          },
-          "alias" : "order_date",
-          "_row_id" : "2081908898"
-        }, {
-          "expression" : {
-            "expression" : "in1.status"
-          },
-          "alias" : "status",
-          "_row_id" : "1802639453"
+          "alias" : "age",
+          "_row_id" : "452121"
         } ],
         "activeTab" : "conditions",
-        "columnsSelector" : [ "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##customer_id", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##user_id", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##customer_id", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##first_name", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##last_name", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##first_order", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##most_recent_order", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##number_of_orders", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##customer_lifetime_value", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##id", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##user_id", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##order_date", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##status" ],
+        "columnsSelector" : [ "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##customer_id", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##age", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##customer_id", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##first_name", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##last_name", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##first_order", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##most_recent_order", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##number_of_orders", "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN##customer_lifetime_value", "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN##age" ],
         "headAlias" : "in0"
       },
       "ports" : {
@@ -158,6 +105,219 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       }
+    },
+    "27qrTeBoFyqztaCp9v3ZC" : {
+      "id" : "27qrTeBoFyqztaCp9v3ZC",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "dsfg",
+        "slug" : "dsfg",
+        "x" : -700,
+        "y" : -340,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "dsfg",
+          "sourceType" : "Source",
+          "sourceName" : "prophecy-databricks-qa.dev_cmek_table_level",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "foyl4naJyZIVIwth-e9vu",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "zsdfgh##qECEhUEz" : {
+      "id" : "zsdfgh##qECEhUEz",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "zsdfgh",
+        "x" : 220,
+        "y" : -400,
+        "phase" : 0,
+        "macroDependencies" : [ ],
+        "comment" : "Creates a new dataset from the joined customer and asset information.",
+        "autoUpdateComment" : true
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT * \n\nFROM Join_1\n",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "rMI3phcz",
+          "slug" : "Join_1"
+        } ],
+        "outputs" : [ {
+          "id" : "RmjtvUu0",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "5KsH2DVYgHbffX9rH_3aU$$pPi5ejHxVA30DBUk9kVUP" : {
+      "id" : "5KsH2DVYgHbffX9rH_3aU$$pPi5ejHxVA30DBUk9kVUP",
+      "component" : "Subgraph",
+      "metadata" : {
+        "label" : "Subgraph_1",
+        "slug" : "Subgraph_1",
+        "x" : -400,
+        "y" : -640,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "processes" : {
+        "yVr08rRa24PwfoxNH0suC$$NBUhStsS1Eq5KRhv78Loh" : {
+          "id" : "yVr08rRa24PwfoxNH0suC$$NBUhStsS1Eq5KRhv78Loh",
+          "component" : "Reformat",
+          "metadata" : {
+            "label" : "Reformat_1",
+            "slug" : "Reformat_1",
+            "x" : -700,
+            "y" : -300,
+            "phase" : 0,
+            "macroDependencies" : [ ]
+          },
+          "properties" : {
+            "columnsSelector" : [ ],
+            "expressions" : [ ]
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "ihkHo6weaIC46JtElz0tm$$fgsu5pXz3LRzn-dfGvNny",
+              "schema" : {
+                "entityType" : "",
+                "providerType" : "bigquery",
+                "fields" : [ {
+                  "name" : "customer_id",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "first_name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                }, {
+                  "name" : "last_name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                }, {
+                  "name" : "first_order",
+                  "dataType" : {
+                    "type" : "Date"
+                  }
+                }, {
+                  "name" : "most_recent_order",
+                  "dataType" : {
+                    "type" : "Date"
+                  }
+                }, {
+                  "name" : "number_of_orders",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "customer_lifetime_value",
+                  "dataType" : {
+                    "type" : "Float"
+                  }
+                } ]
+              },
+              "slug" : "in0"
+            } ],
+            "outputs" : [ {
+              "id" : "W3OceN3aOMYtw55gqs9l5$$VHUwe5JPyVFxBMozSj22Z",
+              "schema" : {
+                "entityType" : "",
+                "providerType" : "BigQuery",
+                "fields" : [ {
+                  "name" : "customer_id",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "first_name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                }, {
+                  "name" : "last_name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                }, {
+                  "name" : "first_order",
+                  "dataType" : {
+                    "type" : "Date"
+                  }
+                }, {
+                  "name" : "most_recent_order",
+                  "dataType" : {
+                    "type" : "Date"
+                  }
+                }, {
+                  "name" : "number_of_orders",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "customer_lifetime_value",
+                  "dataType" : {
+                    "type" : "Float"
+                  }
+                } ]
+              },
+              "slug" : "out"
+            } ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          }
+        }
+      },
+      "connections" : [ {
+        "id" : "vWBFJU3BVzwIY4tHLsYjY",
+        "source" : "5KsH2DVYgHbffX9rH_3aU$$pPi5ejHxVA30DBUk9kVUP",
+        "sourcePort" : "7HxYlfysBypZgpdUbR_AZ$$qILwmeP2r2USb8DXQcv77",
+        "target" : "yVr08rRa24PwfoxNH0suC$$NBUhStsS1Eq5KRhv78Loh",
+        "targetPort" : "ihkHo6weaIC46JtElz0tm$$fgsu5pXz3LRzn-dfGvNny"
+      }, {
+        "id" : "NbY_D8fHzxBCu8JEQZ8Bl",
+        "source" : "yVr08rRa24PwfoxNH0suC$$NBUhStsS1Eq5KRhv78Loh",
+        "sourcePort" : "W3OceN3aOMYtw55gqs9l5$$VHUwe5JPyVFxBMozSj22Z",
+        "target" : "5KsH2DVYgHbffX9rH_3aU$$pPi5ejHxVA30DBUk9kVUP",
+        "targetPort" : "DkconfMlOEaZTHh07vrJO$$nU7ocQK2aD1upTK9ommKN"
+      } ],
+      "ports" : {
+        "inputs" : [ {
+          "id" : "7HxYlfysBypZgpdUbR_AZ$$qILwmeP2r2USb8DXQcv77",
+          "slug" : "customers"
+        } ],
+        "outputs" : [ {
+          "id" : "DkconfMlOEaZTHh07vrJO$$nU7ocQK2aD1upTK9ommKN",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : { },
+      "canonical" : false
     },
     "k___e8MJ4vcouLLOk2l0j" : {
       "id" : "k___e8MJ4vcouLLOk2l0j",
@@ -187,35 +347,6 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       }
-    },
-    "K8O2JNi63hKTZL8Kx6Xyq" : {
-      "id" : "K8O2JNi63hKTZL8Kx6Xyq",
-      "component" : "Source",
-      "metadata" : {
-        "label" : "raw_orders",
-        "slug" : "raw_orders",
-        "x" : -780,
-        "y" : -200,
-        "phase" : 0
-      },
-      "properties" : {
-        "table" : {
-          "name" : "raw_orders",
-          "sourceType" : "Source",
-          "sourceName" : "prophecy-databricks-qa.dev_cmek_table_level",
-          "alias" : "",
-          "additionalProperties" : null
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "1V5Tr9yvX2Z_0qL2UpUyJ",
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      }
     }
   },
   "connections" : [ {
@@ -231,11 +362,17 @@
     "target" : "LIQpnJfcDyTuzs-nlJXBD$$F7k4-x4KBh5-PEeQaTowy",
     "targetPort" : "h-2Vf7h37z-86OHjasRwi$$71bTe-Ro0ZnbGKg14RVRN"
   }, {
-    "id" : "nwmB0J5iBDaEywf5jjSj0",
-    "source" : "K8O2JNi63hKTZL8Kx6Xyq",
-    "sourcePort" : "1V5Tr9yvX2Z_0qL2UpUyJ",
+    "id" : "yWh239kskDs_uHZUWVeSb",
+    "source" : "27qrTeBoFyqztaCp9v3ZC",
+    "sourcePort" : "foyl4naJyZIVIwth-e9vu",
     "target" : "LIQpnJfcDyTuzs-nlJXBD$$F7k4-x4KBh5-PEeQaTowy",
     "targetPort" : "qpPT780Ri9OpS7Elt7wQw$$RO5cEU8RxbAcW1Gym0XIN"
+  }, {
+    "id" : "R10cFHZ1Ib7u5VMKX2ejy",
+    "source" : "k___e8MJ4vcouLLOk2l0j",
+    "sourcePort" : "hVDz_Ve1j98YWvJJdMycj",
+    "target" : "5KsH2DVYgHbffX9rH_3aU$$pPi5ejHxVA30DBUk9kVUP",
+    "targetPort" : "7HxYlfysBypZgpdUbR_AZ$$qILwmeP2r2USb8DXQcv77"
   } ],
   "component" : "Model"
 }
