@@ -1,10 +1,10 @@
 {
   "metainfo" : {
     "type" : "Prophecy",
-    "fabricId" : "1806",
+    "fabricId" : "1509",
     "jobId" : "jobs/jknnjkjnk",
     "name" : "jknnjkjnk",
-    "dagName" : "XmaPWHT9Q07d7rnzrrnY5g_",
+    "dagName" : "uitesting_arunsharma_bigquery_exte_project_jknnjkjnk",
     "schedule" : "None",
     "enabled" : true,
     "alerting" : {
@@ -16,7 +16,6 @@
     "maxConcurrentRuns" : 1,
     "processDefaultSettings" : {
       "ignore_first_depends_on_past" : true,
-      "pool" : "bQ3AdkcV",
       "do_xcom_push" : true
     },
     "maxActiveRuns" : 1,
@@ -103,7 +102,7 @@
         "noVersionCheck" : null,
         "noWriteJson" : null,
         "printerWidth" : null,
-        "sqlFabricId" : "1802",
+        "sqlFabricId" : "1851",
         "gitEntityValue" : null,
         "logFormat" : null,
         "runModelWithChildren" : false,

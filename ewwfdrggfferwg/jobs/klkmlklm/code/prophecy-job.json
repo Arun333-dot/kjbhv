@@ -1,0 +1,83 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "1575",
+    "jobId" : "jobs/klkmlklm",
+    "name" : "klkmlklm",
+    "schedule" : "None",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "prophecy_internal_jobs",
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    }
+  },
+  "processes" : {
+    "QJqForu07tBtwHcZYnCUW$$AV3AxQUMPkL4kBa6wmBBT" : {
+      "id" : "QJqForu07tBtwHcZYnCUW$$AV3AxQUMPkL4kBa6wmBBT",
+      "component" : "Model",
+      "metadata" : {
+        "label" : "Model_0",
+        "slug" : "Model_0",
+        "x" : -700,
+        "y" : -340
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "aVUDHYT58BDpWC6nyJ4jc$$-L3URS0K4lzLl48siYbWe",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "HdlpCek7ZUafrMKImv5Lf$$EXZyqyhw7iI6I5Cd7HcH7",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        },
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "properties" : {
+        "execSeed" : true,
+        "execRun" : false,
+        "gitEntity" : "branch",
+        "projectId" : "",
+        "runOnlyModel" : "false",
+        "loadingModels" : false,
+        "profile" : "run_profile",
+        "gitEntityValue" : "",
+        "execDeps" : false,
+        "execTest" : true,
+        "currentProjectModels" : [ ]
+      }
+    }
+  },
+  "connections" : [ ]
+}

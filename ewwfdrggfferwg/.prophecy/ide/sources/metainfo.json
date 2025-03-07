@@ -19,11 +19,239 @@
     "name" : "",
     "children" : [ {
       "type" : "Database",
+      "name" : "fcee527cde1bb95b0p-tp",
+      "children" : [ ]
+    }, {
+      "type" : "Database",
       "name" : "prophecy-databricks-qa",
       "children" : [ {
         "type" : "Schema",
         "name" : "test_schema",
-        "children" : [ ]
+        "tables" : {
+          "employee_test_windows_cmek" : {
+            "entityType" : "TABLE",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "employee_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "department_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "employee_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "hire_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "salary",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "projects",
+              "dataType" : {
+                "type" : "Array",
+                "dataType" : {
+                  "type" : "String"
+                }
+              }
+            }, {
+              "name" : "performance",
+              "dataType" : {
+                "type" : "Record",
+                "fields" : [ {
+                  "name" : "year",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "score",
+                  "dataType" : {
+                    "type" : "Float"
+                  }
+                } ]
+              }
+            }, {
+              "name" : "supervisor",
+              "dataType" : {
+                "type" : "Record",
+                "fields" : [ {
+                  "name" : "id",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                } ]
+              }
+            }, {
+              "name" : "team_effort",
+              "dataType" : {
+                "type" : "Array",
+                "dataType" : {
+                  "type" : "Record",
+                  "fields" : [ {
+                    "name" : "team_id",
+                    "dataType" : {
+                      "type" : "Integer"
+                    }
+                  }, {
+                    "name" : "contribution",
+                    "dataType" : {
+                      "type" : "Float"
+                    }
+                  } ]
+                }
+              }
+            } ]
+          },
+          "employee_test_windows" : {
+            "entityType" : "TABLE",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "employee_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "department_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "employee_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "hire_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "salary",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "projects",
+              "dataType" : {
+                "type" : "Array",
+                "dataType" : {
+                  "type" : "String"
+                }
+              }
+            }, {
+              "name" : "performance",
+              "dataType" : {
+                "type" : "Record",
+                "fields" : [ {
+                  "name" : "year",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "score",
+                  "dataType" : {
+                    "type" : "Float"
+                  }
+                } ]
+              }
+            }, {
+              "name" : "supervisor",
+              "dataType" : {
+                "type" : "Record",
+                "fields" : [ {
+                  "name" : "id",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                } ]
+              }
+            }, {
+              "name" : "team_effort",
+              "dataType" : {
+                "type" : "Array",
+                "dataType" : {
+                  "type" : "Record",
+                  "fields" : [ {
+                    "name" : "team_id",
+                    "dataType" : {
+                      "type" : "Integer"
+                    }
+                  }, {
+                    "name" : "contribution",
+                    "dataType" : {
+                      "type" : "Float"
+                    }
+                  } ]
+                }
+              }
+            } ]
+          },
+          "orders_scd2" : {
+            "entityType" : "TABLE",
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "user_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "order_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "status",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "dbt_scd_id",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "dbt_updated_at",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "dbt_valid_from",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "dbt_valid_to",
+              "dataType" : {
+                "type" : "Date"
+              }
+            } ]
+          }
+        }
       }, {
         "type" : "Schema",
         "name" : "qa_test_dataset",
@@ -31,438 +259,33 @@
       }, {
         "type" : "Schema",
         "name" : "dev_cmek",
-        "tables" : {
-          "raw_customers" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "raw_orders" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "user_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "status",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "model1" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "user_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "status",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "raw_payments" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "payment_method",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "amount",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            } ]
-          },
-          "stg_customers" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "stg_orders" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "order_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "status",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "zsdfgh" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "user_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "status",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "stg_payments" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "payment_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "payment_method",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "amount",
-              "dataType" : {
-                "type" : "Float"
-              }
-            } ]
-          },
-          "ljlkkjkjn" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            } ]
-          },
-          "orders" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "order_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "status",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "credit_card_amount",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "coupon_amount",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "bank_transfer_amount",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "gift_card_amount",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "amount",
-              "dataType" : {
-                "type" : "Float"
-              }
-            } ]
-          },
-          "customers" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            } ]
-          }
-        }
-      }, {
-        "type" : "Schema",
-        "name" : "qa_schema",
         "children" : [ ]
       }, {
         "type" : "Schema",
-        "name" : "dev_cmek_table_level",
+        "name" : "qa_schema",
         "tables" : {
-          "model1" : {
-            "entityType" : "VIEW",
+          "test_snapshot_model_1_snaoshot" : {
+            "entityType" : "TABLE",
             "providerType" : "BigQuery",
             "fields" : [ {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
               "name" : "order_date",
               "dataType" : {
                 "type" : "Date"
               }
             }, {
-              "name" : "customer_lifetime_value",
+              "name" : "dbt_updated_at",
               "dataType" : {
-                "type" : "Float"
+                "type" : "Date"
               }
             }, {
-              "name" : "customer_id",
+              "name" : "dbt_valid_from",
               "dataType" : {
-                "type" : "Integer"
+                "type" : "Date"
               }
             }, {
-              "name" : "number_of_orders",
+              "name" : "dbt_valid_to",
               "dataType" : {
-                "type" : "Integer"
+                "type" : "Date"
               }
             }, {
               "name" : "id",
@@ -475,173 +298,22 @@
                 "type" : "Integer"
               }
             }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
               "name" : "status",
               "dataType" : {
                 "type" : "String"
               }
-            } ]
-          },
-          "model" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
             }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "dsfg" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "age",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "name",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "zsdfgh" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "order_date",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "user_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "status",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "hjbknl" : {
-            "entityType" : "TABLE",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "age",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "name",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "ljlkkjkjn" : {
-            "entityType" : "VIEW",
-            "providerType" : "BigQuery",
-            "fields" : [ {
-              "name" : "first_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "most_recent_order",
-              "dataType" : {
-                "type" : "Date"
-              }
-            }, {
-              "name" : "customer_lifetime_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "customer_id",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "number_of_orders",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "first_name",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "last_name",
+              "name" : "dbt_scd_id",
               "dataType" : {
                 "type" : "String"
               }
             } ]
           }
         }
+      }, {
+        "type" : "Schema",
+        "name" : "dev_cmek_table_level",
+        "children" : [ ]
       }, {
         "type" : "Schema",
         "name" : "empty_dataset",
@@ -655,10 +327,6 @@
         "name" : "dataset_temp",
         "children" : [ ]
       } ]
-    }, {
-      "type" : "Database",
-      "name" : "prophecy-development",
-      "children" : [ ]
     } ]
   },
   "dependenciesContainer" : {

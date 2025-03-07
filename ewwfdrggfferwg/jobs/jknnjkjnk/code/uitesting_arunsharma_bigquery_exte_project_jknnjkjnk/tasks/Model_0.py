@@ -1,4 +1,4 @@
-from xmapwht9q07d7rnzrrny5g_.utils import *
+from uitesting_arunsharma_bigquery_exte_project_jknnjkjnk.utils import *
 
 def Model_0():
     from airflow.operators.python import PythonOperator
@@ -12,7 +12,7 @@ def Model_0():
         python_callable = invoke_dbt_runner,
         op_kwargs = {
           "is_adhoc_run_from_same_project": False,
-          "is_prophecy_managed": True,
+          "is_prophecy_managed": False,
           "run_deps": False,
           "run_seeds": True,
           "run_parents": False,
@@ -29,9 +29,7 @@ def Model_0():
           "select": "",
           "threads": "",
           "exclude": "",
-          "run_props": " --profile run_profile",
-          "envs": {"DBT_DATABRICKS_INVOCATION_ENV" : "prophecy"}, 
-          "git_token_secret": "TjVdsyI_b3Lg803p69ibQ_", 
-          "dbt_profile_secret": "Occn2Ye3046owA30mOL6V"
+          "run_props": " --profile run_profile_bigquery",
+          "envs": {"DBT_DATABRICKS_INVOCATION_ENV" : "prophecy", "DBT_PROFILES_DIR" : "/home/airflow/gcs/data"}
         },
     )

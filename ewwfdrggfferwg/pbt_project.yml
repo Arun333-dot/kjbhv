@@ -12,7 +12,7 @@ jobs:
   jobs/jknnjkjnk:
     name: jknnjkjnk
     description: ''
-    fabricUID: 1806
+    fabricUID: 1509
     scheduler:
       Prophecy: {}
     cloudProvider: null
@@ -34,6 +34,31 @@ jobs:
     author: arunsharma@prophecy.io
     models:
     - ljlkkjkjn
+    sqlProjects: []
+  jobs/klkmlklm:
+    name: klkmlklm
+    description: ''
+    fabricUID: 1575
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: null
+    scheduleCron: None
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines: []
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: null
+    createdAt: '2025-03-07 06:01:35'
+    author: arunsharma@prophecy.io
+    models: []
     sqlProjects: []
 gemContainer:
   languageVersion: ''
@@ -172,7 +197,15 @@ sqlModels:
       snapshots: []
     createdAt: '2025-02-26 07:18:23'
 sqlSnapshots: {}
-sqlTests: {}
+sqlTests:
+  .prophecy/metadata/sqltests/rdfghj:
+    name: rdfghj
+    description: null
+    author: arunsharma@prophecy.io
+    files:
+    - tests/generic/rdfghj.sql
+    testType: GenericDataTest
+    createdAt: '2025-03-07 06:18:28'
 sqlMacros:
   .prophecy/metadata/sqlmacros/generate_schema_name:
     name: generate_schema_name
